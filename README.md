@@ -10,9 +10,9 @@ The draft contains 46 records: one demo-wall parent, six skids, and 39 component
 
 The existing facility **Mc-Mc Madison Heights Demo Room (A26)** was confirmed in the live MMG DIGITAL tenant on 2026-10-23. Its category is **Locations And Facilities**, and its parent is **Michigan (BHQ)**. Neither existing facility is included as an import row.
 
-Hierarchy: `A26 -> IAB-20261023-DEMO-ROOM -> IAB-20261023-SKID-01..06 -> component groups`. The official template's **Location Code** holds the parent asset code. Parents precede children in the output.
+Hierarchy: `A26 -> IAB-DEMO-ROOM -> IAB-SKID-01..06 -> component groups`. The official template's **Location Code** holds the parent asset code. Parents precede children in the output.
 
-New codes use `IAB-20261023-`. Do not regenerate a different namespace on every rerun: once any rows are imported, reconcile their tenant identities before rebuilding or repeating an import. Otherwise repeated uploads can create duplicates.
+New codes use `IAB-`. Do not regenerate a different namespace on every rerun: once any rows are imported, reconcile their tenant identities before rebuilding or repeating an import. Otherwise repeated uploads can create duplicates.
 
 ## What has and has not been validated
 

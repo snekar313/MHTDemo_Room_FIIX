@@ -1,15 +1,17 @@
 {
   "status": "PASS",
-  "saved_xlsx_matches_csv": true,
   "data_rows": 46,
   "columns": 27,
-  "sheets": [
-    "Import Sheet"
+  "saved_xlsx_matches_csv": true,
+  "only_changed_fields": [
+    "Asset Code",
+    "Location Code"
   ],
+  "existing_parent": "A26",
+  "date_removed_from_all_codes": true,
   "rendered_ranges": [
     "A1:D8",
-    "A9:D15",
-    "M9:M11"
+    "A9:D15"
   ],
-  "visual_review": "PASS: readable hierarchy, component names, and unverified provenance notes"
+  "visual_review": "PASS: updated code and parent-reference columns are readable"
 }

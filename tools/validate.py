@@ -8,7 +8,7 @@ def validate(assets):
     if len(ids)!=len(codes): errors.append('duplicate asset code')
     if any(x in ids for x in ['A26','BHQ']): errors.append('existing facility included as update row')
     for a in assets:
-        if not a['asset_id'].startswith('IAB-20261023-'): errors.append('unexpected code namespace: '+a['asset_id'])
+        if not a['asset_id'].startswith('IAB-'): errors.append('unexpected code namespace: '+a['asset_id'])
         if a['parent_id'] not in seen|{'A26'}: errors.append('missing or out-of-order parent: '+a['asset_id'])
         if a['parent_id']==a['asset_id']: errors.append('self parent')
         parent=next((x for x in assets if x['asset_id']==a['parent_id']),None)

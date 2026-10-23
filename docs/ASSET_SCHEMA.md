@@ -2,7 +2,7 @@
 
 The machine-readable internal schema is schemas/asset.schema.json. This is a project contract, not a vendor schema.
 
-- `asset_id`: stable proposed Fiix Asset Code. The current namespace is IAB-20261023-.
+- `asset_id`: stable proposed Fiix Asset Code. The current namespace is IAB-.
 - `parent_id`: proposed parent Asset Code. A26 is an explicit external existing parent. Every other parent must be an earlier canonical row.
 - `name`: proposed Asset Name; distinct from parent name.
 - `asset_class`: internal engineering classification, not a tenant category lookup.

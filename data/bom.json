@@ -1,8 +1,8 @@
 [
   {
-    "bom_line_id": "IAB-20261023-SKID-01-B010",
-    "asset_id": "IAB-20261023-SKID-01-B010",
-    "skid_id": "IAB-20261023-SKID-01",
+    "bom_line_id": "IAB-SKID-01-B010",
+    "asset_id": "IAB-SKID-01-B010",
+    "skid_id": "IAB-SKID-01",
     "source_row": 2,
     "iab_section": "Controller",
     "candidate_catalog_family": "1769 / 5069 CompactLogix family",
@@ -14,9 +14,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-01-B020",
-    "asset_id": "IAB-20261023-SKID-01-B020",
-    "skid_id": "IAB-20261023-SKID-01",
+    "bom_line_id": "IAB-SKID-01-B020",
+    "asset_id": "IAB-SKID-01-B020",
+    "skid_id": "IAB-SKID-01",
     "source_row": 3,
     "iab_section": "Network",
     "candidate_catalog_family": "FortiGate / Fortinet industrial firewall",
@@ -28,9 +28,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-01-B030",
-    "asset_id": "IAB-20261023-SKID-01-B030",
-    "skid_id": "IAB-20261023-SKID-01",
+    "bom_line_id": "IAB-SKID-01-B030",
+    "asset_id": "IAB-SKID-01-B030",
+    "skid_id": "IAB-SKID-01",
     "source_row": 4,
     "iab_section": "Network",
     "candidate_catalog_family": "Stratix 2000/5700 candidate or third-party switch",
@@ -42,9 +42,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-01-B040",
-    "asset_id": "IAB-20261023-SKID-01-B040",
-    "skid_id": "IAB-20261023-SKID-01",
+    "bom_line_id": "IAB-SKID-01-B040",
+    "asset_id": "IAB-SKID-01-B040",
+    "skid_id": "IAB-SKID-01",
     "source_row": 5,
     "iab_section": "Power",
     "candidate_catalog_family": "140G / 1489-M / 1492-SP family",
@@ -56,9 +56,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-01-B050",
-    "asset_id": "IAB-20261023-SKID-01-B050",
-    "skid_id": "IAB-20261023-SKID-01",
+    "bom_line_id": "IAB-SKID-01-B050",
+    "asset_id": "IAB-SKID-01-B050",
+    "skid_id": "IAB-SKID-01",
     "source_row": 6,
     "iab_section": "Operator Interface",
     "candidate_catalog_family": "800F / 800T / 800H family",
@@ -70,9 +70,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-01-B060",
-    "asset_id": "IAB-20261023-SKID-01-B060",
-    "skid_id": "IAB-20261023-SKID-01",
+    "bom_line_id": "IAB-SKID-01-B060",
+    "asset_id": "IAB-SKID-01-B060",
+    "skid_id": "IAB-SKID-01",
     "source_row": 7,
     "iab_section": "Wiring",
     "candidate_catalog_family": "1492 terminal block family",
@@ -84,9 +84,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-02-B010",
-    "asset_id": "IAB-20261023-SKID-02-B010",
-    "skid_id": "IAB-20261023-SKID-02",
+    "bom_line_id": "IAB-SKID-02-B010",
+    "asset_id": "IAB-SKID-02-B010",
+    "skid_id": "IAB-SKID-02",
     "source_row": 8,
     "iab_section": "Drives",
     "candidate_catalog_family": "PowerFlex 755TS family",
@@ -98,9 +98,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-02-B020",
-    "asset_id": "IAB-20261023-SKID-02-B020",
-    "skid_id": "IAB-20261023-SKID-02",
+    "bom_line_id": "IAB-SKID-02-B020",
+    "asset_id": "IAB-SKID-02-B020",
+    "skid_id": "IAB-SKID-02",
     "source_row": 9,
     "iab_section": "Motion",
     "candidate_catalog_family": "Kinetix 5700 family",
@@ -112,9 +112,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-02-B030",
-    "asset_id": "IAB-20261023-SKID-02-B030",
-    "skid_id": "IAB-20261023-SKID-02",
+    "bom_line_id": "IAB-SKID-02-B030",
+    "asset_id": "IAB-SKID-02-B030",
+    "skid_id": "IAB-SKID-02",
     "source_row": 10,
     "iab_section": "Network",
     "candidate_catalog_family": "EtherNet/IP embedded / option cards",
@@ -126,9 +126,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-02-B040",
-    "asset_id": "IAB-20261023-SKID-02-B040",
-    "skid_id": "IAB-20261023-SKID-02",
+    "bom_line_id": "IAB-SKID-02-B040",
+    "asset_id": "IAB-SKID-02-B040",
+    "skid_id": "IAB-SKID-02",
     "source_row": 11,
     "iab_section": "Power",
     "candidate_catalog_family": "140M / 140G / 1492-SP family",
@@ -140,9 +140,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-02-B050",
-    "asset_id": "IAB-20261023-SKID-02-B050",
-    "skid_id": "IAB-20261023-SKID-02",
+    "bom_line_id": "IAB-SKID-02-B050",
+    "asset_id": "IAB-SKID-02-B050",
+    "skid_id": "IAB-SKID-02",
     "source_row": 12,
     "iab_section": "Motor Control",
     "candidate_catalog_family": "100-C / 193-EE candidate",
@@ -154,9 +154,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-02-B060",
-    "asset_id": "IAB-20261023-SKID-02-B060",
-    "skid_id": "IAB-20261023-SKID-02",
+    "bom_line_id": "IAB-SKID-02-B060",
+    "asset_id": "IAB-SKID-02-B060",
+    "skid_id": "IAB-SKID-02",
     "source_row": 13,
     "iab_section": "Wiring",
     "candidate_catalog_family": "1492 / WAGO terminal blocks",
@@ -168,9 +168,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-03-B010",
-    "asset_id": "IAB-20261023-SKID-03-B010",
-    "skid_id": "IAB-20261023-SKID-03",
+    "bom_line_id": "IAB-SKID-03-B010",
+    "asset_id": "IAB-SKID-03-B010",
+    "skid_id": "IAB-SKID-03",
     "source_row": 14,
     "iab_section": "HMI",
     "candidate_catalog_family": "PanelView Plus 7 / PanelView 5510 family",
@@ -182,9 +182,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-03-B020",
-    "asset_id": "IAB-20261023-SKID-03-B020",
-    "skid_id": "IAB-20261023-SKID-03",
+    "bom_line_id": "IAB-SKID-03-B020",
+    "asset_id": "IAB-SKID-03-B020",
+    "skid_id": "IAB-SKID-03",
     "source_row": 15,
     "iab_section": "Controller",
     "candidate_catalog_family": "Compact GuardLogix 5380 / 5069 family",
@@ -196,9 +196,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-03-B030",
-    "asset_id": "IAB-20261023-SKID-03-B030",
-    "skid_id": "IAB-20261023-SKID-03",
+    "bom_line_id": "IAB-SKID-03-B030",
+    "asset_id": "IAB-SKID-03-B030",
+    "skid_id": "IAB-SKID-03",
     "source_row": 16,
     "iab_section": "I/O",
     "candidate_catalog_family": "5069 Compact I/O / POINT I/O / ArmorBlock family",
@@ -210,9 +210,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-03-B040",
-    "asset_id": "IAB-20261023-SKID-03-B040",
-    "skid_id": "IAB-20261023-SKID-03",
+    "bom_line_id": "IAB-SKID-03-B040",
+    "asset_id": "IAB-SKID-03-B040",
+    "skid_id": "IAB-SKID-03",
     "source_row": 17,
     "iab_section": "Network",
     "candidate_catalog_family": "ASEM / VersaView / ThinManager-ready industrial computer candidate",
@@ -224,9 +224,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-03-B050",
-    "asset_id": "IAB-20261023-SKID-03-B050",
-    "skid_id": "IAB-20261023-SKID-03",
+    "bom_line_id": "IAB-SKID-03-B050",
+    "asset_id": "IAB-SKID-03-B050",
+    "skid_id": "IAB-SKID-03",
     "source_row": 18,
     "iab_section": "Network",
     "candidate_catalog_family": "Stratix / third-party managed switch",
@@ -238,9 +238,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-03-B060",
-    "asset_id": "IAB-20261023-SKID-03-B060",
-    "skid_id": "IAB-20261023-SKID-03",
+    "bom_line_id": "IAB-SKID-03-B060",
+    "asset_id": "IAB-SKID-03-B060",
+    "skid_id": "IAB-SKID-03",
     "source_row": 19,
     "iab_section": "Operator Interface",
     "candidate_catalog_family": "800F / 800T family",
@@ -252,9 +252,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-03-B070",
-    "asset_id": "IAB-20261023-SKID-03-B070",
-    "skid_id": "IAB-20261023-SKID-03",
+    "bom_line_id": "IAB-SKID-03-B070",
+    "asset_id": "IAB-SKID-03-B070",
+    "skid_id": "IAB-SKID-03",
     "source_row": 20,
     "iab_section": "Safety",
     "candidate_catalog_family": "ArmorBlock Guard I/O / 1732ES family",
@@ -266,9 +266,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-04-B010",
-    "asset_id": "IAB-20261023-SKID-04-B010",
-    "skid_id": "IAB-20261023-SKID-04",
+    "bom_line_id": "IAB-SKID-04-B010",
+    "asset_id": "IAB-SKID-04-B010",
+    "skid_id": "IAB-SKID-04",
     "source_row": 21,
     "iab_section": "Motion",
     "candidate_catalog_family": "Kinetix 5500 / 5700 family",
@@ -280,9 +280,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-04-B020",
-    "asset_id": "IAB-20261023-SKID-04-B020",
-    "skid_id": "IAB-20261023-SKID-04",
+    "bom_line_id": "IAB-SKID-04-B020",
+    "asset_id": "IAB-SKID-04-B020",
+    "skid_id": "IAB-SKID-04",
     "source_row": 22,
     "iab_section": "Motion",
     "candidate_catalog_family": "Kinetix VP / MPL motor family candidate",
@@ -294,9 +294,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-04-B030",
-    "asset_id": "IAB-20261023-SKID-04-B030",
-    "skid_id": "IAB-20261023-SKID-04",
+    "bom_line_id": "IAB-SKID-04-B030",
+    "asset_id": "IAB-SKID-04-B030",
+    "skid_id": "IAB-SKID-04",
     "source_row": 23,
     "iab_section": "Controller",
     "candidate_catalog_family": "1734 POINT I/O / 5069 Compact I/O candidate",
@@ -308,9 +308,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-04-B040",
-    "asset_id": "IAB-20261023-SKID-04-B040",
-    "skid_id": "IAB-20261023-SKID-04",
+    "bom_line_id": "IAB-SKID-04-B040",
+    "asset_id": "IAB-SKID-04-B040",
+    "skid_id": "IAB-SKID-04",
     "source_row": 24,
     "iab_section": "Safety",
     "candidate_catalog_family": "440G / 440N Guardmaster family",
@@ -322,9 +322,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-04-B050",
-    "asset_id": "IAB-20261023-SKID-04-B050",
-    "skid_id": "IAB-20261023-SKID-04",
+    "bom_line_id": "IAB-SKID-04-B050",
+    "asset_id": "IAB-SKID-04-B050",
+    "skid_id": "IAB-SKID-04",
     "source_row": 25,
     "iab_section": "Safety",
     "candidate_catalog_family": "440N / 440G / Guardmaster family",
@@ -336,9 +336,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-04-B060",
-    "asset_id": "IAB-20261023-SKID-04-B060",
-    "skid_id": "IAB-20261023-SKID-04",
+    "bom_line_id": "IAB-SKID-04-B060",
+    "asset_id": "IAB-SKID-04-B060",
+    "skid_id": "IAB-SKID-04",
     "source_row": 26,
     "iab_section": "Operator Interface",
     "candidate_catalog_family": "800F / 800T family",
@@ -350,9 +350,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-04-B070",
-    "asset_id": "IAB-20261023-SKID-04-B070",
-    "skid_id": "IAB-20261023-SKID-04",
+    "bom_line_id": "IAB-SKID-04-B070",
+    "asset_id": "IAB-SKID-04-B070",
+    "skid_id": "IAB-SKID-04",
     "source_row": 27,
     "iab_section": "Wiring",
     "candidate_catalog_family": "1492 / WAGO terminal blocks",
@@ -364,9 +364,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-05-B010",
-    "asset_id": "IAB-20261023-SKID-05-B010",
-    "skid_id": "IAB-20261023-SKID-05",
+    "bom_line_id": "IAB-SKID-05-B010",
+    "asset_id": "IAB-SKID-05-B010",
+    "skid_id": "IAB-SKID-05",
     "source_row": 28,
     "iab_section": "Safety",
     "candidate_catalog_family": "GuardShield 450L / 440L family",
@@ -378,9 +378,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-05-B020",
-    "asset_id": "IAB-20261023-SKID-05-B020",
-    "skid_id": "IAB-20261023-SKID-05",
+    "bom_line_id": "IAB-SKID-05-B020",
+    "asset_id": "IAB-SKID-05-B020",
+    "skid_id": "IAB-SKID-05",
     "source_row": 29,
     "iab_section": "Safety",
     "candidate_catalog_family": "440N / 440G / 440K Guardmaster family",
@@ -392,9 +392,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-05-B030",
-    "asset_id": "IAB-20261023-SKID-05-B030",
-    "skid_id": "IAB-20261023-SKID-05",
+    "bom_line_id": "IAB-SKID-05-B030",
+    "asset_id": "IAB-SKID-05-B030",
+    "skid_id": "IAB-SKID-05",
     "source_row": 30,
     "iab_section": "Safety",
     "candidate_catalog_family": "800F / 800T E-stop family",
@@ -406,9 +406,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-05-B040",
-    "asset_id": "IAB-20261023-SKID-05-B040",
-    "skid_id": "IAB-20261023-SKID-05",
+    "bom_line_id": "IAB-SKID-05-B040",
+    "asset_id": "IAB-SKID-05-B040",
+    "skid_id": "IAB-SKID-05",
     "source_row": 31,
     "iab_section": "Safety",
     "candidate_catalog_family": "1732ES ArmorBlock Guard I/O candidate",
@@ -420,9 +420,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-05-B050",
-    "asset_id": "IAB-20261023-SKID-05-B050",
-    "skid_id": "IAB-20261023-SKID-05",
+    "bom_line_id": "IAB-SKID-05-B050",
+    "asset_id": "IAB-SKID-05-B050",
+    "skid_id": "IAB-SKID-05",
     "source_row": 32,
     "iab_section": "Operator Interface",
     "candidate_catalog_family": "800F / 800T pilot light family",
@@ -434,9 +434,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-05-B060",
-    "asset_id": "IAB-20261023-SKID-05-B060",
-    "skid_id": "IAB-20261023-SKID-05",
+    "bom_line_id": "IAB-SKID-05-B060",
+    "asset_id": "IAB-SKID-05-B060",
+    "skid_id": "IAB-SKID-05",
     "source_row": 33,
     "iab_section": "Wiring",
     "candidate_catalog_family": "1492 / WAGO terminal blocks",
@@ -448,9 +448,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-06-B010",
-    "asset_id": "IAB-20261023-SKID-06-B010",
-    "skid_id": "IAB-20261023-SKID-06",
+    "bom_line_id": "IAB-SKID-06-B010",
+    "asset_id": "IAB-SKID-06-B010",
+    "skid_id": "IAB-SKID-06",
     "source_row": 34,
     "iab_section": "HMI",
     "candidate_catalog_family": "PanelView Plus / PanelView 800 family",
@@ -462,9 +462,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-06-B020",
-    "asset_id": "IAB-20261023-SKID-06-B020",
-    "skid_id": "IAB-20261023-SKID-06",
+    "bom_line_id": "IAB-SKID-06-B020",
+    "asset_id": "IAB-SKID-06-B020",
+    "skid_id": "IAB-SKID-06",
     "source_row": 35,
     "iab_section": "Controller",
     "candidate_catalog_family": "Micro800 / CompactLogix / Compact GuardLogix candidate",
@@ -476,9 +476,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-06-B030",
-    "asset_id": "IAB-20261023-SKID-06-B030",
-    "skid_id": "IAB-20261023-SKID-06",
+    "bom_line_id": "IAB-SKID-06-B030",
+    "asset_id": "IAB-SKID-06-B030",
+    "skid_id": "IAB-SKID-06",
     "source_row": 36,
     "iab_section": "Network",
     "candidate_catalog_family": "Stratix 5700 / Stratix 5200 candidate",
@@ -490,9 +490,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-06-B040",
-    "asset_id": "IAB-20261023-SKID-06-B040",
-    "skid_id": "IAB-20261023-SKID-06",
+    "bom_line_id": "IAB-SKID-06-B040",
+    "asset_id": "IAB-SKID-06-B040",
+    "skid_id": "IAB-SKID-06",
     "source_row": 37,
     "iab_section": "Motion",
     "candidate_catalog_family": "Kinetix servo motor / actuator candidate",
@@ -504,9 +504,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-06-B050",
-    "asset_id": "IAB-20261023-SKID-06-B050",
-    "skid_id": "IAB-20261023-SKID-06",
+    "bom_line_id": "IAB-SKID-06-B050",
+    "asset_id": "IAB-SKID-06-B050",
+    "skid_id": "IAB-SKID-06",
     "source_row": 38,
     "iab_section": "Drives",
     "candidate_catalog_family": "PowerFlex 520 / Kinetix candidate",
@@ -518,9 +518,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-06-B060",
-    "asset_id": "IAB-20261023-SKID-06-B060",
-    "skid_id": "IAB-20261023-SKID-06",
+    "bom_line_id": "IAB-SKID-06-B060",
+    "asset_id": "IAB-SKID-06-B060",
+    "skid_id": "IAB-SKID-06",
     "source_row": 39,
     "iab_section": "Power",
     "candidate_catalog_family": "1606-XLE / 1492-SP / 100-C family",
@@ -532,9 +532,9 @@
     "validation_status": "not_validated_in_IAB_or_PST"
   },
   {
-    "bom_line_id": "IAB-20261023-SKID-06-B070",
-    "asset_id": "IAB-20261023-SKID-06-B070",
-    "skid_id": "IAB-20261023-SKID-06",
+    "bom_line_id": "IAB-SKID-06-B070",
+    "asset_id": "IAB-SKID-06-B070",
+    "skid_id": "IAB-SKID-06",
     "source_row": 40,
     "iab_section": "I/O",
     "candidate_catalog_family": "1734/5069/1492/WAGO candidate",

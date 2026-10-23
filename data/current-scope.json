@@ -1,7 +1,7 @@
 {
   "scope": "new_assets_only",
   "parent_existing_code": "A26",
-  "asset_code_prefix": "IAB-20261023-",
+  "asset_code_prefix": "IAB-",
   "task_groups_export": false,
   "work_orders_export": false,
   "existing_record_updates": false,

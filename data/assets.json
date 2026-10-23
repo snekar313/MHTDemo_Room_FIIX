@@ -1,6 +1,6 @@
 [
   {
-    "asset_id": "IAB-20261023-DEMO-ROOM",
+    "asset_id": "IAB-DEMO-ROOM",
     "parent_id": "A26",
     "name": "Rockwell Integrated Architecture Demo Wall",
     "asset_class": "demo_wall",
@@ -23,8 +23,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-01",
-    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "asset_id": "IAB-SKID-01",
+    "parent_id": "IAB-DEMO-ROOM",
     "name": "PLC / Network Core Process Skid",
     "asset_class": "process_skid",
     "record_status": "proposed",
@@ -46,8 +46,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-02",
-    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "asset_id": "IAB-SKID-02",
+    "parent_id": "IAB-DEMO-ROOM",
     "name": "VFD and Motion Drive Process Skid",
     "asset_class": "process_skid",
     "record_status": "proposed",
@@ -69,8 +69,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03",
-    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "asset_id": "IAB-SKID-03",
+    "parent_id": "IAB-DEMO-ROOM",
     "name": "GuardLogix HMI Safety Process Skid",
     "asset_class": "process_skid",
     "record_status": "proposed",
@@ -92,8 +92,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04",
-    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "asset_id": "IAB-SKID-04",
+    "parent_id": "IAB-DEMO-ROOM",
     "name": "Servo Motion Safety Cell Skid",
     "asset_class": "process_skid",
     "record_status": "proposed",
@@ -115,8 +115,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-05",
-    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "asset_id": "IAB-SKID-05",
+    "parent_id": "IAB-DEMO-ROOM",
     "name": "Guarding / E-Stop Safety Demonstration Skid",
     "asset_class": "process_skid",
     "record_status": "proposed",
@@ -138,8 +138,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06",
-    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "asset_id": "IAB-SKID-06",
+    "parent_id": "IAB-DEMO-ROOM",
     "name": "Compact Machine Control and Drives Skid",
     "asset_class": "process_skid",
     "record_status": "proposed",
@@ -161,8 +161,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-01-B010",
-    "parent_id": "IAB-20261023-SKID-01",
+    "asset_id": "IAB-SKID-01-B010",
+    "parent_id": "IAB-SKID-01",
     "name": "SKID-01 - PLC / PAC",
     "asset_class": "PLC Controller",
     "record_status": "estimated",
@@ -184,8 +184,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-01-B020",
-    "parent_id": "IAB-20261023-SKID-01",
+    "asset_id": "IAB-SKID-01-B020",
+    "parent_id": "IAB-SKID-01",
     "name": "SKID-01 - Industrial firewall / security appliance",
     "asset_class": "Network Security Appliance",
     "record_status": "estimated",
@@ -207,8 +207,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-01-B030",
-    "parent_id": "IAB-20261023-SKID-01",
+    "asset_id": "IAB-SKID-01-B030",
+    "parent_id": "IAB-SKID-01",
     "name": "SKID-01 - Industrial Ethernet switch",
     "asset_class": "Ethernet Switch",
     "record_status": "estimated",
@@ -230,8 +230,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-01-B040",
-    "parent_id": "IAB-20261023-SKID-01",
+    "asset_id": "IAB-SKID-01-B040",
+    "parent_id": "IAB-SKID-01",
     "name": "SKID-01 - Circuit protection",
     "asset_class": "Circuit Protection",
     "record_status": "estimated",
@@ -253,8 +253,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-01-B050",
-    "parent_id": "IAB-20261023-SKID-01",
+    "asset_id": "IAB-SKID-01-B050",
+    "parent_id": "IAB-SKID-01",
     "name": "SKID-01 - 22 mm pushbuttons / pilot devices",
     "asset_class": "Operator Device",
     "record_status": "estimated",
@@ -276,8 +276,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-01-B060",
-    "parent_id": "IAB-20261023-SKID-01",
+    "asset_id": "IAB-SKID-01-B060",
+    "parent_id": "IAB-SKID-01",
     "name": "SKID-01 - Terminal blocks / marshalling",
     "asset_class": "Terminal Block Assembly",
     "record_status": "estimated",
@@ -299,8 +299,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-02-B010",
-    "parent_id": "IAB-20261023-SKID-02",
+    "asset_id": "IAB-SKID-02-B010",
+    "parent_id": "IAB-SKID-02",
     "name": "SKID-02 - VFD",
     "asset_class": "Variable Frequency Drive",
     "record_status": "estimated",
@@ -322,8 +322,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-02-B020",
-    "parent_id": "IAB-20261023-SKID-02",
+    "asset_id": "IAB-SKID-02-B020",
+    "parent_id": "IAB-SKID-02",
     "name": "SKID-02 - Servo drive",
     "asset_class": "Servo Drive",
     "record_status": "estimated",
@@ -345,8 +345,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-02-B030",
-    "parent_id": "IAB-20261023-SKID-02",
+    "asset_id": "IAB-SKID-02-B030",
+    "parent_id": "IAB-SKID-02",
     "name": "SKID-02 - EtherNet/IP option cabling",
     "asset_class": "Network Interface",
     "record_status": "estimated",
@@ -368,8 +368,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-02-B040",
-    "parent_id": "IAB-20261023-SKID-02",
+    "asset_id": "IAB-SKID-02-B040",
+    "parent_id": "IAB-SKID-02",
     "name": "SKID-02 - Disconnect / breaker",
     "asset_class": "Circuit Protection",
     "record_status": "estimated",
@@ -391,8 +391,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-02-B050",
-    "parent_id": "IAB-20261023-SKID-02",
+    "asset_id": "IAB-SKID-02-B050",
+    "parent_id": "IAB-SKID-02",
     "name": "SKID-02 - Contactor / overload",
     "asset_class": "Motor Starter",
     "record_status": "estimated",
@@ -414,8 +414,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-02-B060",
-    "parent_id": "IAB-20261023-SKID-02",
+    "asset_id": "IAB-SKID-02-B060",
+    "parent_id": "IAB-SKID-02",
     "name": "SKID-02 - Terminal blocks / distribution",
     "asset_class": "Terminal Block Assembly",
     "record_status": "estimated",
@@ -437,8 +437,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03-B010",
-    "parent_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03-B010",
+    "parent_id": "IAB-SKID-03",
     "name": "SKID-03 - PanelView operator terminal",
     "asset_class": "HMI",
     "record_status": "estimated",
@@ -460,8 +460,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03-B020",
-    "parent_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03-B020",
+    "parent_id": "IAB-SKID-03",
     "name": "SKID-03 - Safety PLC",
     "asset_class": "Safety PLC",
     "record_status": "estimated",
@@ -483,8 +483,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03-B030",
-    "parent_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03-B030",
+    "parent_id": "IAB-SKID-03",
     "name": "SKID-03 - Safety and standard I/O",
     "asset_class": "I/O Module",
     "record_status": "estimated",
@@ -506,8 +506,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03-B040",
-    "parent_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03-B040",
+    "parent_id": "IAB-SKID-03",
     "name": "SKID-03 - Industrial computer / gateway",
     "asset_class": "Industrial Computer",
     "record_status": "estimated",
@@ -529,8 +529,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03-B050",
-    "parent_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03-B050",
+    "parent_id": "IAB-SKID-03",
     "name": "SKID-03 - Managed Ethernet switch",
     "asset_class": "Ethernet Switch",
     "record_status": "estimated",
@@ -552,8 +552,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03-B060",
-    "parent_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03-B060",
+    "parent_id": "IAB-SKID-03",
     "name": "SKID-03 - Selector switches / pushbuttons",
     "asset_class": "Operator Device",
     "record_status": "estimated",
@@ -575,8 +575,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-03-B070",
-    "parent_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03-B070",
+    "parent_id": "IAB-SKID-03",
     "name": "SKID-03 - Safety I/O block / M12 connectivity",
     "asset_class": "Safety I/O",
     "record_status": "estimated",
@@ -598,8 +598,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04-B010",
-    "parent_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04-B010",
+    "parent_id": "IAB-SKID-04",
     "name": "SKID-04 - Servo drive",
     "asset_class": "Servo Drive",
     "record_status": "estimated",
@@ -621,8 +621,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04-B020",
-    "parent_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04-B020",
+    "parent_id": "IAB-SKID-04",
     "name": "SKID-04 - Servo motor / axis assembly",
     "asset_class": "Servo Motor",
     "record_status": "estimated",
@@ -644,8 +644,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04-B030",
-    "parent_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04-B030",
+    "parent_id": "IAB-SKID-04",
     "name": "SKID-04 - Distributed controller / I/O",
     "asset_class": "I/O Assembly",
     "record_status": "estimated",
@@ -667,8 +667,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04-B040",
-    "parent_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04-B040",
+    "parent_id": "IAB-SKID-04",
     "name": "SKID-04 - Guard locking / safety switch",
     "asset_class": "Safety Switch",
     "record_status": "estimated",
@@ -690,8 +690,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04-B050",
-    "parent_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04-B050",
+    "parent_id": "IAB-SKID-04",
     "name": "SKID-04 - Safety interlock sensor",
     "asset_class": "Safety Sensor",
     "record_status": "estimated",
@@ -713,8 +713,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04-B060",
-    "parent_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04-B060",
+    "parent_id": "IAB-SKID-04",
     "name": "SKID-04 - Pushbutton / E-stop station",
     "asset_class": "Operator Device",
     "record_status": "estimated",
@@ -736,8 +736,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-04-B070",
-    "parent_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04-B070",
+    "parent_id": "IAB-SKID-04",
     "name": "SKID-04 - Terminal blocks / safety marshalling",
     "asset_class": "Terminal Block Assembly",
     "record_status": "estimated",
@@ -759,8 +759,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-05-B010",
-    "parent_id": "IAB-20261023-SKID-05",
+    "asset_id": "IAB-SKID-05-B010",
+    "parent_id": "IAB-SKID-05",
     "name": "SKID-05 - Safety light curtains",
     "asset_class": "Light Curtain",
     "record_status": "estimated",
@@ -782,8 +782,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-05-B020",
-    "parent_id": "IAB-20261023-SKID-05",
+    "asset_id": "IAB-SKID-05-B020",
+    "parent_id": "IAB-SKID-05",
     "name": "SKID-05 - Guardmaster safety interlocks",
     "asset_class": "Safety Switch",
     "record_status": "estimated",
@@ -805,8 +805,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-05-B030",
-    "parent_id": "IAB-20261023-SKID-05",
+    "asset_id": "IAB-SKID-05-B030",
+    "parent_id": "IAB-SKID-05",
     "name": "SKID-05 - Zone E-stops",
     "asset_class": "Emergency Stop",
     "record_status": "estimated",
@@ -828,8 +828,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-05-B040",
-    "parent_id": "IAB-20261023-SKID-05",
+    "asset_id": "IAB-SKID-05-B040",
+    "parent_id": "IAB-SKID-05",
     "name": "SKID-05 - Safety I/O / ArmorBlock",
     "asset_class": "Safety I/O",
     "record_status": "estimated",
@@ -851,8 +851,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-05-B050",
-    "parent_id": "IAB-20261023-SKID-05",
+    "asset_id": "IAB-SKID-05-B050",
+    "parent_id": "IAB-SKID-05",
     "name": "SKID-05 - Status indicators",
     "asset_class": "Operator Device",
     "record_status": "estimated",
@@ -874,8 +874,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-05-B060",
-    "parent_id": "IAB-20261023-SKID-05",
+    "asset_id": "IAB-SKID-05-B060",
+    "parent_id": "IAB-SKID-05",
     "name": "SKID-05 - Terminal block marshalling",
     "asset_class": "Terminal Block Assembly",
     "record_status": "estimated",
@@ -897,8 +897,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06-B010",
-    "parent_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06-B010",
+    "parent_id": "IAB-SKID-06",
     "name": "SKID-06 - PanelView HMI",
     "asset_class": "HMI",
     "record_status": "estimated",
@@ -920,8 +920,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06-B020",
-    "parent_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06-B020",
+    "parent_id": "IAB-SKID-06",
     "name": "SKID-06 - Compact machine controller",
     "asset_class": "PLC Controller",
     "record_status": "estimated",
@@ -943,8 +943,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06-B030",
-    "parent_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06-B030",
+    "parent_id": "IAB-SKID-06",
     "name": "SKID-06 - Managed switch",
     "asset_class": "Ethernet Switch",
     "record_status": "estimated",
@@ -966,8 +966,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06-B040",
-    "parent_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06-B040",
+    "parent_id": "IAB-SKID-06",
     "name": "SKID-06 - Linear actuator / motor load",
     "asset_class": "Actuator",
     "record_status": "estimated",
@@ -989,8 +989,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06-B050",
-    "parent_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06-B050",
+    "parent_id": "IAB-SKID-06",
     "name": "SKID-06 - VFD / servo drive",
     "asset_class": "Drive",
     "record_status": "estimated",
@@ -1012,8 +1012,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06-B060",
-    "parent_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06-B060",
+    "parent_id": "IAB-SKID-06",
     "name": "SKID-06 - Power supply and circuit protection",
     "asset_class": "Power Distribution",
     "record_status": "estimated",
@@ -1035,8 +1035,8 @@
     "category_tenant": null
   },
   {
-    "asset_id": "IAB-20261023-SKID-06-B070",
-    "parent_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06-B070",
+    "parent_id": "IAB-SKID-06",
     "name": "SKID-06 - Distributed I/O and terminals",
     "asset_class": "I/O Assembly",
     "record_status": "estimated",

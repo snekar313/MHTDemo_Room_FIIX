@@ -17,7 +17,7 @@ Workbook saved-value comparison and visual QA are recorded in validation/results
 ## Before importing
 
 - [ ] Obtain a complete current tenant asset export, including asset codes, names and parents. Recheck both codes and name/code pairs. Current coverage is insufficient to guarantee no overwrite.
-- [ ] Reconcile any partial previous import in the IAB-20261023- namespace; never blindly reupload.
+- [ ] Reconcile any partial previous import in the IAB- namespace; never blindly reupload.
 - [ ] Confirm root belongs under A26 and review the 39 proposed component groups and estimated quantities.
 - [ ] Review equipment category defaults; blank Category is not a validated classification choice for this tenant.
 - [ ] Verify the current import wizard maps Asset Name, Asset Code and Location Code as documented. Inspect blank-field behavior and any update options.

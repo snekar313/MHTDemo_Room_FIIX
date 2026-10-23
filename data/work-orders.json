@@ -1,6 +1,6 @@
 [
   {
-    "asset_id": "IAB-20261023-SKID-01",
+    "asset_id": "IAB-SKID-01",
     "description": "IAB SKID-01 - commissioning and inventory verification",
     "priority": "Medium",
     "status": "Open",
@@ -17,7 +17,7 @@
     "import_status": "export_layout_only_not_schema_validated"
   },
   {
-    "asset_id": "IAB-20261023-SKID-02",
+    "asset_id": "IAB-SKID-02",
     "description": "IAB SKID-02 - commissioning and inventory verification",
     "priority": "Medium",
     "status": "Open",
@@ -34,7 +34,7 @@
     "import_status": "export_layout_only_not_schema_validated"
   },
   {
-    "asset_id": "IAB-20261023-SKID-03",
+    "asset_id": "IAB-SKID-03",
     "description": "IAB SKID-03 - commissioning and inventory verification",
     "priority": "Medium",
     "status": "Open",
@@ -53,7 +53,7 @@
     "import_status": "export_layout_only_not_schema_validated"
   },
   {
-    "asset_id": "IAB-20261023-SKID-04",
+    "asset_id": "IAB-SKID-04",
     "description": "IAB SKID-04 - commissioning and inventory verification",
     "priority": "Medium",
     "status": "Open",
@@ -70,7 +70,7 @@
     "import_status": "export_layout_only_not_schema_validated"
   },
   {
-    "asset_id": "IAB-20261023-SKID-05",
+    "asset_id": "IAB-SKID-05",
     "description": "IAB SKID-05 - commissioning and inventory verification",
     "priority": "Medium",
     "status": "Open",
@@ -87,7 +87,7 @@
     "import_status": "export_layout_only_not_schema_validated"
   },
   {
-    "asset_id": "IAB-20261023-SKID-06",
+    "asset_id": "IAB-SKID-06",
     "description": "IAB SKID-06 - commissioning and inventory verification",
     "priority": "Medium",
     "status": "Open",

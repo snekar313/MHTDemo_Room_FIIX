@@ -11,7 +11,7 @@ Open conflicts requiring review:
 3. BMP network diagram labels controllers, switches, drives and server systems more specifically than photo evidence supports. Device-level IPs and catalog numbers are diagram proposals, not installed facts.
 4. BMP IP examples use I/O .20 while its legend reserves .50-.99 for I/O. No host address is adopted from this conflict. The canonical network file defines zones only.
 5. Earlier chat/Fiix workbooks call skid-03 an HMI/PanelView cell. A local photo filename calls it Optix. Rear-label identity remains unresolved. Similar differences exist for skid-06 controller/drive families and skid-04 I/O family. Original wording remains attributed, not silently corrected.
-6. IA-DEMO-WALL and DEMO-ROOM are historical root names/IDs. Current canonical root is IAB-20261023-DEMO-ROOM. Existing tenant facility A26 is a separate record, not a root alias.
+6. IA-DEMO-WALL and DEMO-ROOM are historical root names/IDs. Current canonical root is IAB-DEMO-ROOM. Existing tenant facility A26 is a separate record, not a root alias.
 7. Prior normalized Fiix assets contain wildcard/family strings such as 5069-L3xERM and 2198-K5500. These are not verified orderable catalog numbers. They are excluded from verified Model/catalog fields in the new output.
 8. The original Assets.csv tenant export includes only (No Site) and RLENG A42. Live browser observation confirms A26 separately. The export is not a complete tenant collision inventory.
 9. The official template is dated 2023-06-13. Parent-field semantics are documented there; tenant runtime import support still requires a test.

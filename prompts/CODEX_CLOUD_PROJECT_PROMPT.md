@@ -8,7 +8,7 @@ Maintain a cohesive, reusable engineering project connecting the Rockwell Integr
 
 Target existing facility: **Mc-Mc Madison Heights Demo Room**, asset code **A26**, under **Michigan (BHQ)** in the MMG DIGITAL tenant. This name/code/category/parent relationship was observed in the live browser on 2026-10-23. Recheck current state before a future import. Do not create or update A26 or BHQ. Place the new demo-wall root beneath A26, the six skids beneath the root, and the proposed component groups beneath their respective skids.
 
-Preserve the current `IAB-20261023-` code namespace. Do not change existing codes to evade duplicate detection. After a partial or complete import, obtain fresh tenant records and reconcile before reusing the file.
+Preserve the current `IAB-` code namespace. Do not change existing codes to evade duplicate detection. After a partial or complete import, obtain fresh tenant records and reconcile before reusing the file.
 
 ## Source precedence and evidence
 
