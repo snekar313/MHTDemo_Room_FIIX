@@ -58,6 +58,7 @@ diagrams/                      Proposed logical topology and asset hierarchy
 ## Rebuild and validate
 
 The offline validator uses Python 3 standard library: `python tools/validate.py`.
+GitHub Actions runs this validator and the hierarchy guardrail tests on Linux. This remote check is separate from a Codex Cloud environment and from a Fiix import.
 The asset builder uses Node.js and `@oai/artifact-tool`: `node tools/build_assets.mjs`. The authoring environment supplies this package; on another environment, provision an approved package version before rebuilding. Do not assume the desktop's runtime path exists in Cloud. No Fiix credentials are required for local generation or validation.
 
 Two user-referenced TXT guide copies are missing. Their contents have not been reconstructed or silently substituted. The prior chat is summarized with attribution in the source register; ChatGPT-generated claims remain unverified until supported by source evidence.

@@ -33,5 +33,5 @@ No Fiix import or live data mutation has been performed. Task-group/work-order e
 - [ ] Exact product names, catalog numbers, ratings, firmware and quantity census supported by evidence.
 - [ ] IAB/PST software version recorded and native project saved/reopened/validated if native delivery is requested.
 - [ ] Actual network configuration/port evidence supports any as-built diagram.
-- [ ] Repository publication independently verified.
+- [x] Repository publication independently verified against the Git remote.
 - [ ] Cloud environment configured and a validation run executed remotely; local checks do not satisfy this gate.

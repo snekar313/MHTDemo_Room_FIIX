@@ -1,0 +1,8 @@
+# Preserve evidence bytes on Windows and Linux so source SHA-256 hashes remain valid.
+sources/** -text
+outputs/**/*.csv -text
+*.md text eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+sources/** -text

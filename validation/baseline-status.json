@@ -1,11 +1,12 @@
 {
   "as_of": "2026-10-23",
-  "local_checks": "pending",
+  "local_checks": "PASS: see results.json and workbook-qa.json; six hierarchy guardrail tests passed",
   "native_IAB": "BLOCKED: IAB/PST software validation not performed",
   "fiix_asset_schema": "Template headers and parent mapping inspected; tenant import not tested",
   "task_group_import": "BLOCKED: summary export contains no task definitions or import contract",
   "work_order_import": "BLOCKED: export layout is not an import contract; new code generation and reference matching untested",
   "TXT_guides": "BLOCKED: both referenced TXT copies missing",
-  "github": "Public repository verified; no project data uploaded",
-  "cloud": "Not configured or executed"
+  "github": "PUBLISHED: initial package pushed to snekar313/MHTDemo_Room_FIIX main; user authorized public source set",
+  "cloud": "Codex Cloud environment not configured or executed; GitHub Actions validation configured separately",
+  "current_scope": "New assets only: 46 rows under existing A26; no existing-record rows or task/work-order outputs"
 }
