@@ -1,0 +1,13 @@
+﻿SM Code,SM Description,Asset Code,Maintenance Type,Start As Work Order Status,Priority,Create Work Order Even If There Are Open Ones,Task Group
+IAB-SM-S01-M,MHT Demo Room SKID-01 - monthly condition inspection,IAB-SKID-01,Inspection,Open,Medium,false,MHT IAB S01 Monthly Controls Inspection
+IAB-SM-S01-Q,MHT Demo Room SKID-01 - quarterly firmware and network audit,IAB-SKID-01,Inspection,Open,Medium,false,MHT IAB S01 Quarterly Configuration Audit
+IAB-SM-S02-M,MHT Demo Room SKID-02 - monthly condition inspection,IAB-SKID-02,Inspection,Open,Medium,false,MHT IAB S02 Monthly Controls Inspection
+IAB-SM-S02-Q,MHT Demo Room SKID-02 - quarterly firmware and network audit,IAB-SKID-02,Inspection,Open,Medium,false,MHT IAB S02 Quarterly Configuration Audit
+IAB-SM-S03-M,MHT Demo Room SKID-03 - monthly condition inspection,IAB-SKID-03,Inspection,Open,Medium,false,MHT IAB S03 Monthly Controls Inspection
+IAB-SM-S03-Q,MHT Demo Room SKID-03 - quarterly firmware and network audit,IAB-SKID-03,Inspection,Open,Medium,false,MHT IAB S03 Quarterly Configuration Audit
+IAB-SM-S04-M,MHT Demo Room SKID-04 - monthly condition inspection,IAB-SKID-04,Inspection,Open,Medium,false,MHT IAB S04 Monthly Controls Inspection
+IAB-SM-S04-Q,MHT Demo Room SKID-04 - quarterly firmware and network audit,IAB-SKID-04,Inspection,Open,Medium,false,MHT IAB S04 Quarterly Configuration Audit
+IAB-SM-S05-M,MHT Demo Room SKID-05 - monthly condition inspection,IAB-SKID-05,Inspection,Open,Medium,false,MHT IAB S05 Monthly Controls Inspection
+IAB-SM-S05-Q,MHT Demo Room SKID-05 - quarterly firmware and network audit,IAB-SKID-05,Inspection,Open,Medium,false,MHT IAB S05 Quarterly Configuration Audit
+IAB-SM-S06-M,MHT Demo Room SKID-06 - monthly condition inspection,IAB-SKID-06,Inspection,Open,Medium,false,MHT IAB S06 Monthly Controls Inspection
+IAB-SM-S06-Q,MHT Demo Room SKID-06 - quarterly firmware and network audit,IAB-SKID-06,Inspection,Open,Medium,false,MHT IAB S06 Quarterly Configuration Audit

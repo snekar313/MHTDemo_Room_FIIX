@@ -16,5 +16,7 @@ jobs:
         run: python tools/validate.py
       - name: Check hierarchy guardrails
         run: python -m unittest discover -s tools -p test_validate.py
+      - name: Validate controls maintenance definition package
+        run: python tools/validate_maintenance.py
       - name: Report validation boundary
         run: echo 'Offline checks only. Fiix import, full tenant collision coverage, Codex Cloud environment, and native IAB/PST validation are separate gates.'

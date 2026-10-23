@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "saved_workbook_csv_equality": {
+    "Tasks": true,
+    "Device Register": true
+  },
+  "sheet_data_rows": {
+    "Jobs": 12,
+    "Tasks": 132,
+    "Device Register": 39,
+    "Field Map": 16
+  },
+  "actual_observations_blank": true,
+  "visual_review": "PASS: all four sheets rendered and inspected; headings, task descriptions, evidence requirements and unverified candidate fields legible",
+  "tenant_changes": "NONE"
+}

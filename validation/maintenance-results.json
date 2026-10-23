@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Offline identities, counts, sequences, asset scope and documented header subsets only",
+  "errors": [],
+  "jobs": 12,
+  "task_groups": 12,
+  "tasks": 132,
+  "device_groups": 39,
+  "source_check": "PASS: local-only raw export hash matches; no proposed code matches supplied 11 rows",
+  "tenant_import_validation": "NOT_EXECUTED",
+  "observations_collected": false,
+  "schedule_triggers_included": false,
+  "activation": "NOT_PERFORMED"
+}

@@ -7,3 +7,5 @@ __pycache__/
 *.zip
 validation/previews/
 *.inspect.ndjson
+sources/private/
+data/maintenance-source-profile.json

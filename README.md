@@ -20,7 +20,13 @@ Offline checks cover unique codes, source hashes, CSV integrity, stage dependenc
 
 The staged files use six populated official fields: Asset Name, Asset Code, Category, Location Code, Asset Description and Notes. Unused blank fields and the custom-field placeholder are omitted. The wall uses the observed tenant category Locations And Facilities. Skids and components explicitly use Equipment, also observed in the tenant. Candidate catalog families remain labeled UNVERIFIED in Notes; no verified model/serial/procurement data is invented. The 2023-06-13 template remains a reference, not proof of tenant acceptance.
 
-Task groups, task definitions, assignments, and commissioning work orders are retained as **future planning context** under `data/`; they are not exported or imported in this asset-only release.
+Legacy task context remains under data/. The new controls-maintenance draft package is described below. Commissioning work orders remain future planning context and have not been imported.
+
+## Controls maintenance task groups and job definitions
+
+The user requested monthly/quarterly controls inspections, firmware and hardware-revision audits, actual IP/interface records, and maintenance integration with the newly added skid assets. The authored package in outputs/controls-maintenance contains 12 task groups with 132 tasks and 12 trigger-free scheduled-maintenance drafts. See [package instructions](docs/CONTROLS_MAINTENANCE_README.md) and [integration prompt](prompts/FIIX_CONTROLS_MAINTENANCE_INTEGRATION_PROMPT.md).
+
+Use the official asset template in sources for identity fields. Actual firmware/IP/custom-field values remain unknown until inspected. Planned intervals and labor are proposals. The later integration must verify the live asset set, groups, codes and paused state; generating this package does not create or activate anything in Fiix. The new ScheduledMaintenanceList report is kept locally under ignored sources/private/ rather than published under earlier source-set permission.
 
 ## Start here
 
