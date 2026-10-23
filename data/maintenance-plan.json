@@ -25,7 +25,8 @@
         "IAB-SKID-01-B050",
         "IAB-SKID-01-B060"
       ],
-      "task_count": 10
+      "task_count": 10,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S01-Q",
@@ -51,7 +52,8 @@
         "IAB-SKID-01-B050",
         "IAB-SKID-01-B060"
       ],
-      "task_count": 12
+      "task_count": 12,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S02-M",
@@ -77,7 +79,8 @@
         "IAB-SKID-02-B050",
         "IAB-SKID-02-B060"
       ],
-      "task_count": 10
+      "task_count": 10,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S02-Q",
@@ -103,7 +106,8 @@
         "IAB-SKID-02-B050",
         "IAB-SKID-02-B060"
       ],
-      "task_count": 12
+      "task_count": 12,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S03-M",
@@ -130,7 +134,8 @@
         "IAB-SKID-03-B060",
         "IAB-SKID-03-B070"
       ],
-      "task_count": 10
+      "task_count": 10,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S03-Q",
@@ -157,7 +162,8 @@
         "IAB-SKID-03-B060",
         "IAB-SKID-03-B070"
       ],
-      "task_count": 12
+      "task_count": 12,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S04-M",
@@ -184,7 +190,8 @@
         "IAB-SKID-04-B060",
         "IAB-SKID-04-B070"
       ],
-      "task_count": 10
+      "task_count": 10,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S04-Q",
@@ -211,7 +218,8 @@
         "IAB-SKID-04-B060",
         "IAB-SKID-04-B070"
       ],
-      "task_count": 12
+      "task_count": 12,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S05-M",
@@ -237,7 +245,8 @@
         "IAB-SKID-05-B050",
         "IAB-SKID-05-B060"
       ],
-      "task_count": 10
+      "task_count": 10,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S05-Q",
@@ -263,7 +272,8 @@
         "IAB-SKID-05-B050",
         "IAB-SKID-05-B060"
       ],
-      "task_count": 12
+      "task_count": 12,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S06-M",
@@ -290,7 +300,8 @@
         "IAB-SKID-06-B060",
         "IAB-SKID-06-B070"
       ],
-      "task_count": 10
+      "task_count": 10,
+      "task_type": "text"
     },
     {
       "code": "IAB-SM-S06-Q",
@@ -317,7 +328,8 @@
         "IAB-SKID-06-B060",
         "IAB-SKID-06-B070"
       ],
-      "task_count": 12
+      "task_count": 12,
+      "task_type": "text"
     }
   ],
   "tasks": [

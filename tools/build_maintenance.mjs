@@ -53,7 +53,7 @@ for(const skid of skids){
   const job={code:`IAB-SM-S${n}-${cadence}`,skid_code:skid.asset_id,skid_name:skid.name,description:`MHT Demo Room SKID-${n} - ${cadence==='M'?'monthly condition inspection':'quarterly firmware and network audit'}`,group:`MHT IAB S${n} ${cadence==='M'?'Monthly Controls Inspection':'Quarterly Configuration Audit'}`,cadence_months:cadence==='M'?1:3,proposed_labor_hours:cadence==='M'?0.5:1.5,priority:'Medium',maintenance_type:'Inspection',start_work_order_status:'Open',desired_state:'Paused; no trigger',start_date:null,assigned_user:null,interval_approval:'Proposed; controls owner approval required',live_asset_match:'User reports newly added; reverify in tenant before linking',target_component_codes:children.map(a=>a.asset_id)};
   const items=[...(cadence==='M'?commonM:commonQ),...domain[n][cadence.toLowerCase()]];
   items.forEach(([action,record,acceptance],i)=>tasks.push({task_id:`${job.code}-T${String(i+1).padStart(2,'0')}`,sm_code:job.code,group:job.group,sequence:i+1,skid_code:skid.asset_id,target_codes:children.map(a=>a.asset_id),action,record_required:record,acceptance,task_type:'text',observations:null,source:'Authored planning definition from canonical IAB scope and user request; not an executed inspection'}));
-  job.task_count=items.length; jobs.push(job);
+  job.task_count=items.length; job.task_type='text'; jobs.push(job);
  }
 }
 const deviceFields=['Asset Code','Parent Skid Code','Asset Name','Asset Class','Candidate Family (UNVERIFIED)','Quantity Estimate','Device Instance / Position','Make (observed)','Model (observed)','Catalog Number (observed)','Serial Number (observed)','Hardware Series / Revision (observed)','Firmware / Software Version (observed)','Interface ID','IPv4 Address (observed)','Subnet Mask (observed)','Gateway (observed)','MAC Address (observed)','DHCP / Static (observed)','Switch / Port (observed)','VLAN / NAT Role (observed)','Approved Baseline Reference','Backup Reference','Evidence / Read Method','Observation Date','Inspected By','Result / Exception Reference','Applicability / N-A Reason'];
@@ -64,8 +64,8 @@ const defs=tasks.map(t=>[t.sm_code,t.group,t.sequence,t.task_id,t.skid_code,t.ta
 // notification/automatic corrective-WO defaults and preserve actual readings.
 const tgHeaders=['Task group name','Task description','Task type'];
 const tgRows=tasks.map(t=>[t.group,`${t.task_id}. ${t.action}. RECORD: ${t.record_required} ACCEPTANCE: ${t.acceptance} Scope: ${t.skid_code} and applicable child devices.`,t.task_type]);
-const smHeaders=['SM Code','SM Description','Asset Code','Maintenance Type','Start As Work Order Status','Priority','Create Work Order Even If There Are Open Ones','Task Group'];
-const smRows=jobs.map(j=>[j.code,j.description,j.skid_code,j.maintenance_type,j.start_work_order_status,j.priority,'false',j.group]);
+const smHeaders=['SM Code','SM Description','Asset Code','Maintenance Type','Start As Work Order Status','Priority','Create Work Order Even If There Are Open Ones','Task Group','Task Type'];
+const smRows=jobs.map(j=>[j.code,j.description,j.skid_code,j.maintenance_type,j.start_work_order_status,j.priority,'false',j.group,j.task_type]);
 const wb=Workbook.create();
 function sheet(name,headers,rows,widths){
  const s=wb.worksheets.add(name); const r=s.getRangeByIndexes(0,0,rows.length+1,headers.length); r.values=[headers,...rows];
@@ -99,6 +99,7 @@ const mapRows=[
  ['Template source','sources/tenant/mmg/Fiix - Asset Import Template - 20230613.xlsx','Reference Page / Import Sheet','Used for asset identity fields only; not treated as a maintenance-import schema.'],
  ['Raw SM source','sources/private/maintenance/ScheduledMaintenanceList.csv','Local-only copy and SHA-256 profile','Not published under previous source-set permission.']
 ];
+mapRows.push(['Task Type','User-reported tenant importer requirement','text on all 12 SM rows','Matches the data-recording task type in the task groups. Verify this field mapping in the tenant preview.']);
 sheet('Field Map',['Field / Topic','Source','Use in package','Integration rule'],mapRows,[36,65,55,92]);
 // CSV outputs share the same underlying task and job definitions as the workbook.
 const csvCell=v=>{const s=String(v??'');return /[",\r\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;};
@@ -113,7 +114,7 @@ for(const [name,h,r] of matrices) await fs.writeFile(path.join(out,name),'\uFEFF
 await (await SpreadsheetFile.exportXlsx(wb)).save(path.join(out,'MHT_Controls_Maintenance_Plan.xlsx'));
 await fs.writeFile(path.join(root,'data/maintenance-plan.json'),JSON.stringify({facility:'A26',jobs,tasks,observed_values_populated:false,proposed_cadences:true,live_writes_authorized:false,source_docs:mapRows.slice(12,15)},null,2)+'\n');
 const qa=path.join(root,'validation/previews/maintenance');await fs.mkdir(qa,{recursive:true});
-for(const [name,range] of [['Jobs','A1:H5'],['Tasks','G1:J4'],['Device Register','A1:H5'],['Field Map','A1:D5']]){
+for(const [name,range] of [['Jobs','A1:H5'],['Tasks','G1:J4'],['Device Register','A1:H5'],['Field Map','A16:D18']]){
  const img=await wb.render({sheetName:name,range,scale:1.25,format:'png'});await fs.writeFile(path.join(qa,name.replaceAll(' ','_')+'.png'),new Uint8Array(await img.arrayBuffer()));
 }
 console.log(JSON.stringify({jobs:jobs.length,groups:jobs.length,tasks:tasks.length,component_groups:components.length,files:matrices.map(x=>x[0]),workbook:'MHT_Controls_Maintenance_Plan.xlsx',live_changes:false}));

@@ -6,7 +6,7 @@ This package contains 12 skid-specific task groups with 132 tasks: 10 monthly co
 
 1. MHT_Controls_Maintenance_Plan.xlsx: Jobs, ordered Tasks, Device Register and Field Map for review.
 2. 01_TaskGroups_Import.csv: documented Fiix task-group columns, one row per task. Import only after checking existing group names. The reference Task_Definitions.csv must not be imported a second time.
-3. 02_ScheduledMaintenance_DRAFT_NoTriggers.csv: documented SM columns, 12 new codes referencing existing skid codes and groups. Task groups and assets must exist first. It contains no trigger fields or activation dates. Import acceptance/default state are untested.
+3. 02_ScheduledMaintenance_DRAFT_NoTriggers.csv: SM columns plus the user-reported required Task Type field, set to text on all 12 rows. The file references existing skid codes and groups. Task groups and assets must exist first. It contains no trigger fields or activation dates. Import acceptance/default state are untested.
 4. Device_Inspection_Register.csv: 39 component-group seed rows with blank actual values. Add supporting rows for each physical device/position/interface within a group. Do not create new asset codes as a side effect.
 5. prompts/FIIX_CONTROLS_MAINTENANCE_INTEGRATION_PROMPT.md: preflight, duplicate prevention, import mapping, paused-state verification and deferred activation.
 

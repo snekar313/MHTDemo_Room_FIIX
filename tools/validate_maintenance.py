@@ -34,11 +34,12 @@ def main():
         if not row['Task description'].startswith(task['task_id']+'. ') or row['Task type']!='text': errors.append('task import sequence/type mismatch')
         if '\n' in row['Task description'] or '\r' in row['Task description'] or '"' in row['Task description']: errors.append('unsupported task content formatting')
     h,sm=csvrows('02_ScheduledMaintenance_DRAFT_NoTriggers.csv')
-    expected=['SM Code','SM Description','Asset Code','Maintenance Type','Start As Work Order Status','Priority','Create Work Order Even If There Are Open Ones','Task Group']
+    expected=['SM Code','SM Description','Asset Code','Maintenance Type','Start As Work Order Status','Priority','Create Work Order Even If There Are Open Ones','Task Group','Task Type']
     if h!=expected or any('Trigger' in x or x=='SM Status' for x in h): errors.append('SM headers or trigger policy mismatch')
     if len(sm)!=12 or {r['SM Code'] for r in sm}!=jobcodes: errors.append('SM CSV code/count mismatch')
     for r,j in zip(sm,jobs):
         if r['Asset Code']!=j['skid_code'] or r['Task Group']!=j['group'] or r['Create Work Order Even If There Are Open Ones']!='false': errors.append('SM association/duplicate-WO policy mismatch')
+        if r.get('Task Type')!='text' or j.get('task_type')!='text': errors.append('missing or incorrect required SM Task Type')
     h,register=csvrows('Device_Inspection_Register.csv')
     if len(register)!=39 or {r['Asset Code'] for r in register}!=set(children): errors.append('device register scope mismatch')
     if any(v for r in register for k,v in r.items() if k not in h[:6]): errors.append('fabricated actual device reading')

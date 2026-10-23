@@ -29,7 +29,7 @@ Start with one new group, verify its saved task count/content/order, then create
 
 ## Create SM definitions after groups and assets exist
 
-Use the documented SM importer with 02_ScheduledMaintenance_DRAFT_NoTriggers.csv. Each row references one existing skid Asset Code and one existing Task Group. Verify all eight headers manually; do not rely on fuzzy automatic mapping. No task-group name may be unresolved, mirroring the earlier asset-import lesson that referenced records must already exist before import.
+Use the SM importer with 02_ScheduledMaintenance_DRAFT_NoTriggers.csv. Each row references one existing skid Asset Code and one existing Task Group. Verify all nine headers manually; do not rely on fuzzy automatic mapping. Include Task Type = text on every row, as required by the tenant importer reported by the user. This matches the data-recording tasks in the groups; verify the exact Task Type mapping in the preview. No task-group name may be unresolved, mirroring the earlier asset-import lesson that referenced records must already exist before import.
 
 The file intentionally omits Trigger Type and all start-date/time fields. It sets Create Work Order Even If There Are Open Ones to false. Do not infer a start date or activate a record from a phrase like monthly in its description. Preview the importer/defaults to confirm the resulting record can remain paused and generate no work. If this tenant requires a trigger or defaults to an active state that cannot be kept paused, do not submit: use the verified UI path to create a paused definition without a trigger, or report the specific blocker. Never submit a partially mapped or unexpectedly active record.
 

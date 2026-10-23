@@ -8,9 +8,10 @@
     "Jobs": 12,
     "Tasks": 132,
     "Device Register": 39,
-    "Field Map": 16
+    "Field Map": 17
   },
   "actual_observations_blank": true,
   "visual_review": "PASS: all four sheets rendered and inspected; headings, task descriptions, evidence requirements and unverified candidate fields legible",
-  "tenant_changes": "NONE"
+  "tenant_changes": "NONE",
+  "required_sm_task_type": "text on 12 rows; other SM field values preserved"
 }
