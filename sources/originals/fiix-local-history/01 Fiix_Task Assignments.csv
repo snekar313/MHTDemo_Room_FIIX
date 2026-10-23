@@ -1,0 +1,12 @@
+﻿Asset ID,Asset Name,Assigned Task Group
+SKID-01,Discrete IO Operator Station,Control Panel Inspection
+SKID-01-PLC,CompactLogix Controller,PLC Preventive Maintenance
+SKID-02-VFD,PowerFlex Drive,VFD Maintenance
+SKID-02-SERVO,Kinetix Servo System,Servo System Maintenance
+SKID-03-PLC,Compact GuardLogix,PLC Preventive Maintenance
+SKID-03-HMI,PanelView HMI,HMI Maintenance
+SKID-03-SW,Industrial Ethernet Switch,Industrial Network Inspection
+SKID-04-LOCK,Guard Locking Switch,Safety System Validation
+SKID-05-LC,Safety Light Curtain,Light Curtain Inspection
+SKID-05-RELAY,Safety Controller/Relay,Safety System Validation
+SKID-06-SW,Stratix Switch,Industrial Network Inspection

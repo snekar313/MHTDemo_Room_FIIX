@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "offline structure, source hashes, CSV roundtrip, and supplied-export collision checks only",
+  "errors": [],
+  "asset_rows": 46,
+  "source_hashes_checked": 36,
+  "existing_facility": "A26",
+  "existing_facility_import_rows": 0,
+  "supplied_asset_rows": 2,
+  "full_tenant_collision_check": "BLOCKED: supplied asset export is incomplete",
+  "fiix_import": "NOT_EXECUTED",
+  "native_IAB": "NOT_GENERATED"
+}

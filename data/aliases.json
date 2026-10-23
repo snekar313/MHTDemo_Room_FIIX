@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "SRC-001",
+    "source_key": "IA-DEMO-WALL",
+    "asset_id": "IAB-20261023-DEMO-ROOM",
+    "status": "explicit_ID_crosswalk"
+  },
+  {
+    "source_id": "SRC-001",
+    "source_key": "SKID-01",
+    "asset_id": "IAB-20261023-SKID-01",
+    "status": "explicit_ID_crosswalk"
+  },
+  {
+    "source_id": "SRC-001",
+    "source_key": "SKID-02",
+    "asset_id": "IAB-20261023-SKID-02",
+    "status": "explicit_ID_crosswalk"
+  },
+  {
+    "source_id": "SRC-001",
+    "source_key": "SKID-03",
+    "asset_id": "IAB-20261023-SKID-03",
+    "status": "explicit_ID_crosswalk"
+  },
+  {
+    "source_id": "SRC-001",
+    "source_key": "SKID-04",
+    "asset_id": "IAB-20261023-SKID-04",
+    "status": "explicit_ID_crosswalk"
+  },
+  {
+    "source_id": "SRC-001",
+    "source_key": "SKID-05",
+    "asset_id": "IAB-20261023-SKID-05",
+    "status": "explicit_ID_crosswalk"
+  },
+  {
+    "source_id": "SRC-001",
+    "source_key": "SKID-06",
+    "asset_id": "IAB-20261023-SKID-06",
+    "status": "explicit_ID_crosswalk"
+  }
+]

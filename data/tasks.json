@@ -1,0 +1,178 @@
+[
+  {
+    "task_id": "TG-001-01",
+    "group_id": "TG-001",
+    "sequence": 1,
+    "description": "Verify controller health and status LEDs",
+    "expected_result": "No faults present",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 2",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-001-02",
+    "group_id": "TG-001",
+    "sequence": 2,
+    "description": "Review controller fault logs",
+    "expected_result": "No unresolved faults",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 3",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-001-03",
+    "group_id": "TG-001",
+    "sequence": 3,
+    "description": "Backup controller program",
+    "expected_result": "Current backup stored",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 4",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-002-01",
+    "group_id": "TG-002",
+    "sequence": 1,
+    "description": "Verify touchscreen operation",
+    "expected_result": "All screens functional",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 5",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-002-02",
+    "group_id": "TG-002",
+    "sequence": 2,
+    "description": "Check alarm functionality",
+    "expected_result": "Alarms display correctly",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 6",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-003-01",
+    "group_id": "TG-003",
+    "sequence": 1,
+    "description": "Verify switch status and ports",
+    "expected_result": "All expected ports active",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 7",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-003-02",
+    "group_id": "TG-003",
+    "sequence": 2,
+    "description": "Inspect Ethernet cables",
+    "expected_result": "No damage or loose connections",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 8",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-004-01",
+    "group_id": "TG-004",
+    "sequence": 1,
+    "description": "Review drive diagnostics",
+    "expected_result": "No active faults",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 9",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-004-02",
+    "group_id": "TG-004",
+    "sequence": 2,
+    "description": "Inspect cooling fans and vents",
+    "expected_result": "Clean and unobstructed",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 10",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-005-01",
+    "group_id": "TG-005",
+    "sequence": 1,
+    "description": "Check servo axis status",
+    "expected_result": "No faults",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 11",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-005-02",
+    "group_id": "TG-005",
+    "sequence": 2,
+    "description": "Inspect motor and feedback cables",
+    "expected_result": "Connections secure",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 12",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-006-01",
+    "group_id": "TG-006",
+    "sequence": 1,
+    "description": "Test E-stop circuits",
+    "expected_result": "Machine enters safe state",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 13",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-006-02",
+    "group_id": "TG-006",
+    "sequence": 2,
+    "description": "Validate guard interlocks",
+    "expected_result": "Safety functions operate correctly",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 14",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-007-01",
+    "group_id": "TG-007",
+    "sequence": 1,
+    "description": "Interrupt light curtain field",
+    "expected_result": "Safety trip occurs",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 15",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-008-01",
+    "group_id": "TG-008",
+    "sequence": 1,
+    "description": "Inspect terminals and wiring",
+    "expected_result": "No loose connections",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 16",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  },
+  {
+    "task_id": "TG-008-02",
+    "group_id": "TG-008",
+    "sequence": 2,
+    "description": "Inspect enclosure cleanliness",
+    "expected_result": "Panel clean and dry",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Lists!row 17",
+    "status": "draft",
+    "execution_requirement": "Qualified personnel; approved OEM/site procedure and energy isolation where required. No safety certification is implied."
+  }
+]

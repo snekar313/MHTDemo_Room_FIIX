@@ -1,0 +1,184 @@
+[
+  {
+    "asset_id": "IAB-20261023-SKID-01",
+    "group_id": "TG-008",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02",
+    "group_id": "TG-008",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03",
+    "group_id": "TG-008",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04",
+    "group_id": "TG-008",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05",
+    "group_id": "TG-008",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06",
+    "group_id": "TG-008",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B010",
+    "group_id": "TG-001",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B020",
+    "group_id": "TG-003",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B030",
+    "group_id": "TG-003",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B010",
+    "group_id": "TG-004",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B020",
+    "group_id": "TG-005",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B010",
+    "group_id": "TG-002",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B020",
+    "group_id": "TG-001",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B020",
+    "group_id": "TG-006",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B050",
+    "group_id": "TG-003",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B070",
+    "group_id": "TG-006",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B010",
+    "group_id": "TG-005",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B040",
+    "group_id": "TG-006",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B050",
+    "group_id": "TG-006",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B010",
+    "group_id": "TG-007",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B020",
+    "group_id": "TG-006",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B030",
+    "group_id": "TG-006",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B040",
+    "group_id": "TG-006",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B010",
+    "group_id": "TG-002",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B020",
+    "group_id": "TG-001",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B030",
+    "group_id": "TG-003",
+    "status": "proposed_class_mapping",
+    "source": "authored_mapping_from_IAB_class",
+    "approved": false
+  }
+]

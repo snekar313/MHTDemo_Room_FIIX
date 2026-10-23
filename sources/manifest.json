@@ -1,0 +1,376 @@
+[
+  {
+    "source_id": "SRC-001",
+    "path": "sources/originals/iab/Rockwell_Demo_Room_IAB_Project_Builder.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Work\\2026\\Fiix\\Rockwell_Demo_Room_IAB_Project_Builder.xlsx",
+    "sha256": "09a9bf0cef06f3bbe2e9b7d507cd3b0776a0f5f54f1d9fdbe38447ba7a06ab59",
+    "bytes": 756731,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-002",
+    "path": "sources/originals/network/MHT Demo Room Wall sample laoyout.bmp",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Work\\2026\\Fiix\\MHT Demo Room Wall sample laoyout.bmp",
+    "sha256": "474db2ada1d8cd0ef22565df7a0a1b8c4adeef0d49f4b241fdb5bc6fcab095e0",
+    "bytes": 4718646,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-003",
+    "path": "sources/originals/fiix-previous/Fiix_CMMS_Asset_Import_Template.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Work\\2026\\Fiix\\GPT Test\\Fiix_CMMS_Asset_Import_Template.xlsx",
+    "sha256": "56984dd017be04e13654600c37ad0271a15692c5de939c88491292065b054163",
+    "bytes": 6551,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-004",
+    "path": "sources/originals/fiix-previous/Fiix_Normalized_Asset_Import.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Work\\2026\\Fiix\\GPT Test\\Fiix_Normalized_Asset_Import.xlsx",
+    "sha256": "ff969b689fc1136a7ff66752f9dea47ced5e67701959d3b51e85c0d726cfb5e6",
+    "bytes": 7745,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-005",
+    "path": "sources/originals/fiix-local-history/01 Fiix_Task Assignments.csv",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\01 Fiix_Task Assignments.csv",
+    "sha256": "563f74405cbc0364e38ec233bf165558bdc5fdc88771e85975efe6fa000386d0",
+    "bytes": 687,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-006",
+    "path": "sources/originals/fiix-local-history/01 Fiix_Task Groups.csv",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\01 Fiix_Task Groups.csv",
+    "sha256": "0610806cfeaf7fdadd6fefac3a22506e1fff9426e5ad8fac0c37c55f4474d7a5",
+    "bytes": 521,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-007",
+    "path": "sources/originals/fiix-local-history/01 Fiix_Task LIsts.csv",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\01 Fiix_Task LIsts.csv",
+    "sha256": "27f321bbeae74ab26c19f1fbfe05e64de22bcaeea1d195beb33f7124f59330ee",
+    "bytes": 1295,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-008",
+    "path": "sources/originals/fiix-local-history/01 Fiix_Tasklists_and_Groups.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\01 Fiix_Tasklists_and_Groups.xlsx",
+    "sha256": "61356eed00794979d0e18f4afbb0ef6a6ff902707593599e6138c12f728954d5",
+    "bytes": 11363,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-009",
+    "path": "sources/originals/fiix-local-history/02 Fiix_Tasklists.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\02 Fiix_Tasklists.xlsx",
+    "sha256": "435f5459a596ae327a3e34898b597ccb77f1699644fe73c00327b643074a2cc6",
+    "bytes": 11412,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-010",
+    "path": "sources/originals/fiix-local-history/03 Fiix_Task Assignments.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\03 Fiix_Task Assignments.xlsx",
+    "sha256": "33d36d8a073845e93f89152e1acbbf784984756fdf6053c858a1c6bd414e0acf",
+    "bytes": 11385,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-011",
+    "path": "sources/originals/fiix-local-history/Assets.csv",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Assets.csv",
+    "sha256": "999d80884f5a790dec8e30987d9744e60d25718681237849cebd301ff4518374",
+    "bytes": 2274,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-012",
+    "path": "sources/originals/fiix-local-history/Fiix_CMMS_Asset_Import_Template.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Fiix_CMMS_Asset_Import_Template.xlsx",
+    "sha256": "56984dd017be04e13654600c37ad0271a15692c5de939c88491292065b054163",
+    "bytes": 6551,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-013",
+    "path": "sources/originals/fiix-local-history/Fiix_Normalized_Asset_Import 2.csv",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Fiix_Normalized_Asset_Import 2.csv",
+    "sha256": "d9f281c4d55b37b4b3f288ce135067e218795b05674843f3cb4dea1048c79c17",
+    "bytes": 234,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-014",
+    "path": "sources/originals/fiix-local-history/Fiix_Normalized_Asset_Import.csv",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Fiix_Normalized_Asset_Import.csv",
+    "sha256": "999d80884f5a790dec8e30987d9744e60d25718681237849cebd301ff4518374",
+    "bytes": 2274,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-015",
+    "path": "sources/originals/fiix-local-history/Fiix_Normalized_Asset_Import.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Fiix_Normalized_Asset_Import.xlsx",
+    "sha256": "b740b507b868ba65ba0ad1a1ab17fd913c7c94fcd23b757d1b65d661d1d9423c",
+    "bytes": 12086,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-016",
+    "path": "sources/originals/fiix-local-history/Fiix_Tasklists_and_Groups.xlsx",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Fiix_Tasklists_and_Groups.xlsx",
+    "sha256": "701af0f274549b22700954a5beebfebb8cf9fe838c108f0b5592cdfc1076badf",
+    "bytes": 7498,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-017",
+    "path": "sources/originals/fiix-local-history/LOcations.csv",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\LOcations.csv",
+    "sha256": "b19c955b25367738462453da4701f233e3779fd09bf345ad1388101a42d9127c",
+    "bytes": 193,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-018",
+    "path": "sources/tenant/mmg/Assets.csv",
+    "original_path": "D:\\_Downloads\\_RA\\Fiix templates\\MMG Tenant\\Exports\\Assets.csv",
+    "sha256": "2711ec905003b5fec6bb27100aa04bb39b7f03b6fcfbb2463fdd94c25618a283",
+    "bytes": 99,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-019",
+    "path": "sources/tenant/mmg/TaskGroups.csv",
+    "original_path": "D:\\_Downloads\\_RA\\Fiix templates\\MMG Tenant\\Exports\\TaskGroups.csv",
+    "sha256": "ca703bddfe060546e0e3c22a270ec128480eb0fb522d5dafee106106c6314d43",
+    "bytes": 165,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-020",
+    "path": "sources/tenant/mmg/WorkOrdersAdministration.csv",
+    "original_path": "D:\\_Downloads\\_RA\\Fiix templates\\MMG Tenant\\Exports\\WorkOrdersAdministration.csv",
+    "sha256": "c4873a8fe23d5e6ba11c7004536e0447f1c2d7255aa1202337e74d5df6f052ac",
+    "bytes": 607,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-021",
+    "path": "sources/tenant/mmg/Fiix - Asset Import Template - 20230613.xlsx",
+    "original_path": "D:\\_Downloads\\_RA\\Fiix templates\\MMG Tenant\\Exports\\Fiix - Asset Import Template - 20230613.xlsx",
+    "sha256": "318c4230af892d7c8b672e4e4adfdc6386e6769f410f7ed4b3d1849579dac3f0",
+    "bytes": 57924,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-022",
+    "path": "sources/photos/IMG_0192.jpeg",
+    "original_path": "drive-download-20260615T184452Z-3-001.zip!IMG_0192.jpeg",
+    "sha256": "46746f4f510b4abd9c49ed8943a64dcae6f30a30c0a1d7e228cf2d7eed3d65b5",
+    "bytes": 1937217,
+    "status": "available",
+    "content_status": "image_reviewed_family_labels_only",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-023",
+    "path": "sources/photos/IMG_0196.jpeg",
+    "original_path": "drive-download-20260615T184452Z-3-001.zip!IMG_0196.jpeg",
+    "sha256": "d6b5f06d9919e949329e8cf73b0fd74ee672bfbb2eea1823afe822b96ef50ed5",
+    "bytes": 1847622,
+    "status": "available",
+    "content_status": "image_reviewed_family_labels_only",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-024",
+    "path": "sources/photos/IMG_0199.jpeg",
+    "original_path": "drive-download-20260615T184452Z-3-001.zip!IMG_0199.jpeg",
+    "sha256": "49f96150aa86b053e306d44c95c26cb0b7db9f68690e94acbf74f0d7f1a18be7",
+    "bytes": 2104321,
+    "status": "available",
+    "content_status": "image_reviewed_family_labels_only",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-025",
+    "path": "sources/photos/IMG_0201.jpeg",
+    "original_path": "drive-download-20260615T184452Z-3-001.zip!IMG_0201.jpeg",
+    "sha256": "9a9fb2aee15dd4a3981b9a78879ed43fb6e7a33a17c96e625df563145a037394",
+    "bytes": 1949355,
+    "status": "available",
+    "content_status": "image_reviewed_family_labels_only",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-026",
+    "path": "sources/photos/IMG_0205.jpeg",
+    "original_path": "drive-download-20260615T184452Z-3-001.zip!IMG_0205.jpeg",
+    "sha256": "795cc225496248f9d5c73d7fd4aa927f12a66359afb628d0b7cf854bebe20931",
+    "bytes": 2003725,
+    "status": "available",
+    "content_status": "image_reviewed_family_labels_only",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-027",
+    "path": "sources/photos/IMG_0206.jpeg",
+    "original_path": "drive-download-20260615T184452Z-3-001.zip!IMG_0206.jpeg",
+    "sha256": "422cd0d513c21583cde4dab8d9d3f77a84017a32fbe76ee64bde4a2457334519",
+    "bytes": 1879284,
+    "status": "available",
+    "content_status": "image_reviewed_family_labels_only",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-028",
+    "path": "sources/photos/IMG_0209.jpeg",
+    "original_path": "drive-download-20260615T184452Z-3-001.zip!IMG_0209.jpeg",
+    "sha256": "f9aaf6768b6c5b8aa7c0ade4d4ea8bca073a341ca3e421c22c96a212eb828b03",
+    "bytes": 1701514,
+    "status": "available",
+    "content_status": "image_reviewed_family_labels_only",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-029",
+    "path": "sources/photos/labeled-local/01 Demo Room Overview.jpeg",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Demo Room wall\\01 Demo Room Overview.jpeg",
+    "sha256": "46746f4f510b4abd9c49ed8943a64dcae6f30a30c0a1d7e228cf2d7eed3d65b5",
+    "bytes": 1937217,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-030",
+    "path": "sources/photos/labeled-local/CompactGuardLogix with Optix Panel.jpeg",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Demo Room wall\\CompactGuardLogix with Optix Panel.jpeg",
+    "sha256": "9a9fb2aee15dd4a3981b9a78879ed43fb6e7a33a17c96e625df563145a037394",
+    "bytes": 1949355,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-031",
+    "path": "sources/photos/labeled-local/CompactLogix with In-Cabinet Ethernet IO.jpeg",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Demo Room wall\\CompactLogix with In-Cabinet Ethernet IO.jpeg",
+    "sha256": "d6b5f06d9919e949329e8cf73b0fd74ee672bfbb2eea1823afe822b96ef50ed5",
+    "bytes": 1847622,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-032",
+    "path": "sources/photos/labeled-local/Kinetix 5100 to Micro820.jpeg",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Demo Room wall\\Kinetix 5100 to Micro820.jpeg",
+    "sha256": "f9aaf6768b6c5b8aa7c0ade4d4ea8bca073a341ca3e421c22c96a212eb828b03",
+    "bytes": 1701514,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-033",
+    "path": "sources/photos/labeled-local/Kinetix and Safe Motion with 5034 IO.jpeg",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Demo Room wall\\Kinetix and Safe Motion with 5034 IO.jpeg",
+    "sha256": "795cc225496248f9d5c73d7fd4aa927f12a66359afb628d0b7cf854bebe20931",
+    "bytes": 2003725,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-034",
+    "path": "sources/photos/labeled-local/PowerFlex 7555TS and Kinetix 5700.jpeg",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Demo Room wall\\PowerFlex 7555TS and Kinetix 5700.jpeg",
+    "sha256": "49f96150aa86b053e306d44c95c26cb0b7db9f68690e94acbf74f0d7f1a18be7",
+    "bytes": 2104321,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "SRC-035",
+    "path": "sources/photos/labeled-local/Safety Pedestal.jpeg",
+    "original_path": "C:\\Users\\srspe\\OneDrive\\Documents\\_Work\\2026\\Fiix Demo Room\\Demo Room wall\\Safety Pedestal.jpeg",
+    "sha256": "422cd0d513c21583cde4dab8d9d3f77a84017a32fbe76ee64bde4a2457334519",
+    "bytes": 1879284,
+    "status": "available",
+    "content_status": "source_claims_not_verified",
+    "captured_date": "2026-10-23"
+  },
+  {
+    "source_id": "MISSING-TXT-1",
+    "path": null,
+    "original_path": null,
+    "sha256": null,
+    "status": "missing",
+    "description": "User-referenced uploaded IAB Project Structure Guide TXT copy 1; contents not retrievable in this session"
+  },
+  {
+    "source_id": "MISSING-TXT-2",
+    "path": null,
+    "original_path": null,
+    "sha256": null,
+    "status": "missing",
+    "description": "User-referenced uploaded IAB Project Structure Guide TXT copy 2; contents not retrievable in this session"
+  },
+  {
+    "source_id": "LIVE-FACILITY",
+    "path": "sources/browser/facility-observation.json",
+    "sha256": "9312aa8322f614ef487d20936648b5104c6c03d29a5fd16fc505aea2effc0b3a",
+    "status": "available",
+    "content_status": "verified_live_browser",
+    "captured_date": "2026-10-23"
+  }
+]

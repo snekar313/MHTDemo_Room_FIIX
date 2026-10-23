@@ -1,0 +1,107 @@
+[
+  {
+    "asset_id": "IAB-20261023-SKID-01",
+    "description": "IAB SKID-01 - commissioning and inventory verification",
+    "priority": "Medium",
+    "status": "Open",
+    "type": "Inspection",
+    "assigned_users": null,
+    "code": null,
+    "estimated_hours": null,
+    "task_groups": [
+      "IAB - PLC Preventive Maintenance",
+      "IAB - Industrial Network Inspection",
+      "IAB - Control Panel Inspection"
+    ],
+    "completion_state": "not_started",
+    "import_status": "export_layout_only_not_schema_validated"
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02",
+    "description": "IAB SKID-02 - commissioning and inventory verification",
+    "priority": "Medium",
+    "status": "Open",
+    "type": "Inspection",
+    "assigned_users": null,
+    "code": null,
+    "estimated_hours": null,
+    "task_groups": [
+      "IAB - VFD Maintenance",
+      "IAB - Servo System Maintenance",
+      "IAB - Control Panel Inspection"
+    ],
+    "completion_state": "not_started",
+    "import_status": "export_layout_only_not_schema_validated"
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03",
+    "description": "IAB SKID-03 - commissioning and inventory verification",
+    "priority": "Medium",
+    "status": "Open",
+    "type": "Inspection",
+    "assigned_users": null,
+    "code": null,
+    "estimated_hours": null,
+    "task_groups": [
+      "IAB - PLC Preventive Maintenance",
+      "IAB - HMI Maintenance",
+      "IAB - Industrial Network Inspection",
+      "IAB - Safety System Validation",
+      "IAB - Control Panel Inspection"
+    ],
+    "completion_state": "not_started",
+    "import_status": "export_layout_only_not_schema_validated"
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04",
+    "description": "IAB SKID-04 - commissioning and inventory verification",
+    "priority": "Medium",
+    "status": "Open",
+    "type": "Inspection",
+    "assigned_users": null,
+    "code": null,
+    "estimated_hours": null,
+    "task_groups": [
+      "IAB - Servo System Maintenance",
+      "IAB - Safety System Validation",
+      "IAB - Control Panel Inspection"
+    ],
+    "completion_state": "not_started",
+    "import_status": "export_layout_only_not_schema_validated"
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05",
+    "description": "IAB SKID-05 - commissioning and inventory verification",
+    "priority": "Medium",
+    "status": "Open",
+    "type": "Inspection",
+    "assigned_users": null,
+    "code": null,
+    "estimated_hours": null,
+    "task_groups": [
+      "IAB - Safety System Validation",
+      "IAB - Light Curtain Inspection",
+      "IAB - Control Panel Inspection"
+    ],
+    "completion_state": "not_started",
+    "import_status": "export_layout_only_not_schema_validated"
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06",
+    "description": "IAB SKID-06 - commissioning and inventory verification",
+    "priority": "Medium",
+    "status": "Open",
+    "type": "Inspection",
+    "assigned_users": null,
+    "code": null,
+    "estimated_hours": null,
+    "task_groups": [
+      "IAB - PLC Preventive Maintenance",
+      "IAB - HMI Maintenance",
+      "IAB - Industrial Network Inspection",
+      "IAB - Control Panel Inspection"
+    ],
+    "completion_state": "not_started",
+    "import_status": "export_layout_only_not_schema_validated"
+  }
+]

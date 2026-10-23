@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical IAB asset (internal schema, not Fiix schema)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "asset_id",
+    "parent_id",
+    "name",
+    "asset_class",
+    "record_status",
+    "quantity_estimate",
+    "model_verified",
+    "catalog_number_verified",
+    "candidate_catalog_family",
+    "manufacturer_candidate",
+    "description",
+    "photo",
+    "evidence",
+    "verification_action",
+    "category_tenant"
+  ],
+  "properties": {
+    "asset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "asset_class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_status": {
+      "enum": [
+        "proposed",
+        "estimated",
+        "verified",
+        "conflicting"
+      ]
+    },
+    "quantity_estimate": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "model_verified": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "catalog_number_verified": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "candidate_catalog_family": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "manufacturer_candidate": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "photo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "locator",
+          "claim_status"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "claim_status": {
+            "enum": [
+              "inherited_unverified",
+              "photo_observed",
+              "label_verified",
+              "software_verified"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "verification_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category_tenant": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

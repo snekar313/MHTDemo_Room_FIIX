@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+*.pyc
+.local-build.py
+.env
+.env.*
+*.zip
+validation/previews/
+*.inspect.ndjson

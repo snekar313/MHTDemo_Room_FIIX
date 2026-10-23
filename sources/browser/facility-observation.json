@@ -1,0 +1,13 @@
+{
+  "observed_date": "2026-10-23",
+  "url": "https://mcmcgroup.macmms.com/",
+  "tenant_display": "MMG DIGITAL",
+  "facility_name": "Mc-Mc Madison Heights Demo Room",
+  "facility_code": "A26",
+  "category": "Locations And Facilities",
+  "parent_name": "Michigan",
+  "parent_code": "BHQ",
+  "method": "Read-only browser accessibility observation of open Facility form",
+  "mutation_performed": false,
+  "source": "Current user request independently confirmed in live browser"
+}

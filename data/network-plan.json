@@ -1,0 +1,72 @@
+[
+  {
+    "network_id": "CORE",
+    "cidr": "192.168.63.0/24",
+    "status": "proposed",
+    "gateway_reservation": "192.168.63.1",
+    "vlan_id": null,
+    "routing_verified": false,
+    "assignments_verified": false,
+    "source": "current_user_provisional_plan"
+  },
+  {
+    "network_id": "SKID-01",
+    "cidr": "192.168.10.0/24",
+    "status": "proposed",
+    "gateway_reservation": "192.168.10.1",
+    "vlan_id": null,
+    "routing_verified": false,
+    "assignments_verified": false,
+    "source": "current_user_provisional_plan"
+  },
+  {
+    "network_id": "SKID-02",
+    "cidr": "192.168.20.0/24",
+    "status": "proposed",
+    "gateway_reservation": "192.168.20.1",
+    "vlan_id": null,
+    "routing_verified": false,
+    "assignments_verified": false,
+    "source": "current_user_provisional_plan"
+  },
+  {
+    "network_id": "SKID-03",
+    "cidr": "192.168.30.0/24",
+    "status": "proposed",
+    "gateway_reservation": "192.168.30.1",
+    "vlan_id": null,
+    "routing_verified": false,
+    "assignments_verified": false,
+    "source": "current_user_provisional_plan"
+  },
+  {
+    "network_id": "SKID-04",
+    "cidr": "192.168.40.0/24",
+    "status": "proposed",
+    "gateway_reservation": "192.168.40.1",
+    "vlan_id": null,
+    "routing_verified": false,
+    "assignments_verified": false,
+    "source": "current_user_provisional_plan"
+  },
+  {
+    "network_id": "SKID-05",
+    "cidr": "192.168.50.0/24",
+    "status": "proposed",
+    "gateway_reservation": "192.168.50.1",
+    "vlan_id": null,
+    "routing_verified": false,
+    "assignments_verified": false,
+    "source": "current_user_provisional_plan"
+  },
+  {
+    "network_id": "SKID-06",
+    "cidr": "192.168.60.0/24",
+    "status": "proposed",
+    "gateway_reservation": "192.168.60.1",
+    "vlan_id": null,
+    "routing_verified": false,
+    "assignments_verified": false,
+    "source": "current_user_provisional_plan"
+  }
+]

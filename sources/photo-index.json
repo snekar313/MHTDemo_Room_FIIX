@@ -1,0 +1,51 @@
+[
+  {
+    "photo": "IMG_0192.jpeg",
+    "skid_id": "MAIN",
+    "source_id": "SRC-022",
+    "mapping_status": "inherited_from_IAB_builder",
+    "physical_order_verified": false
+  },
+  {
+    "photo": "IMG_0196.jpeg",
+    "skid_id": "SKID-01",
+    "source_id": "SRC-023",
+    "mapping_status": "inherited_from_IAB_builder",
+    "physical_order_verified": false
+  },
+  {
+    "photo": "IMG_0199.jpeg",
+    "skid_id": "SKID-02",
+    "source_id": "SRC-024",
+    "mapping_status": "inherited_from_IAB_builder",
+    "physical_order_verified": false
+  },
+  {
+    "photo": "IMG_0201.jpeg",
+    "skid_id": "SKID-03",
+    "source_id": "SRC-025",
+    "mapping_status": "inherited_from_IAB_builder",
+    "physical_order_verified": false
+  },
+  {
+    "photo": "IMG_0205.jpeg",
+    "skid_id": "SKID-04",
+    "source_id": "SRC-026",
+    "mapping_status": "inherited_from_IAB_builder",
+    "physical_order_verified": false
+  },
+  {
+    "photo": "IMG_0206.jpeg",
+    "skid_id": "SKID-05",
+    "source_id": "SRC-027",
+    "mapping_status": "inherited_from_IAB_builder",
+    "physical_order_verified": false
+  },
+  {
+    "photo": "IMG_0209.jpeg",
+    "skid_id": "SKID-06",
+    "source_id": "SRC-028",
+    "mapping_status": "inherited_from_IAB_builder",
+    "physical_order_verified": false
+  }
+]

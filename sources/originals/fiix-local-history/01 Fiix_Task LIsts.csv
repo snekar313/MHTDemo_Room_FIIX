@@ -1,0 +1,17 @@
+﻿Task Group,Task #,Task Description,Expected Result
+PLC Preventive Maintenance,1,Verify controller health and status LEDs,No faults present
+PLC Preventive Maintenance,2,Review controller fault logs,No unresolved faults
+PLC Preventive Maintenance,3,Backup controller program,Current backup stored
+HMI Maintenance,1,Verify touchscreen operation,All screens functional
+HMI Maintenance,2,Check alarm functionality,Alarms display correctly
+Industrial Network Inspection,1,Verify switch status and ports,All expected ports active
+Industrial Network Inspection,2,Inspect Ethernet cables,No damage or loose connections
+VFD Maintenance,1,Review drive diagnostics,No active faults
+VFD Maintenance,2,Inspect cooling fans and vents,Clean and unobstructed
+Servo System Maintenance,1,Check servo axis status,No faults
+Servo System Maintenance,2,Inspect motor and feedback cables,Connections secure
+Safety System Validation,1,Test E-stop circuits,Machine enters safe state
+Safety System Validation,2,Validate guard interlocks,Safety functions operate correctly
+Light Curtain Inspection,1,Interrupt light curtain field,Safety trip occurs
+Control Panel Inspection,1,Inspect terminals and wiring,No loose connections
+Control Panel Inspection,2,Inspect enclosure cleanliness,Panel clean and dry

@@ -1,0 +1,90 @@
+[
+  {
+    "group_id": "TG-001",
+    "name": "IAB - PLC Preventive Maintenance",
+    "legacy_name": "PLC Preventive Maintenance",
+    "applies_to": "CompactLogix / GuardLogix",
+    "proposed_frequency": "Quarterly",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 2",
+    "status": "draft"
+  },
+  {
+    "group_id": "TG-002",
+    "name": "IAB - HMI Maintenance",
+    "legacy_name": "HMI Maintenance",
+    "applies_to": "PanelView HMI",
+    "proposed_frequency": "Quarterly",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 3",
+    "status": "draft"
+  },
+  {
+    "group_id": "TG-003",
+    "name": "IAB - Industrial Network Inspection",
+    "legacy_name": "Industrial Network Inspection",
+    "applies_to": "Stratix Switches",
+    "proposed_frequency": "Quarterly",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 4",
+    "status": "draft"
+  },
+  {
+    "group_id": "TG-004",
+    "name": "IAB - VFD Maintenance",
+    "legacy_name": "VFD Maintenance",
+    "applies_to": "PowerFlex 755TS",
+    "proposed_frequency": "Semi-Annual",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 5",
+    "status": "draft"
+  },
+  {
+    "group_id": "TG-005",
+    "name": "IAB - Servo System Maintenance",
+    "legacy_name": "Servo System Maintenance",
+    "applies_to": "Kinetix 5500/5700",
+    "proposed_frequency": "Semi-Annual",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 6",
+    "status": "draft"
+  },
+  {
+    "group_id": "TG-006",
+    "name": "IAB - Safety System Validation",
+    "legacy_name": "Safety System Validation",
+    "applies_to": "Guardmaster / GuardLogix",
+    "proposed_frequency": "Quarterly",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 7",
+    "status": "draft"
+  },
+  {
+    "group_id": "TG-007",
+    "name": "IAB - Light Curtain Inspection",
+    "legacy_name": "Light Curtain Inspection",
+    "applies_to": "GuardShield 450L",
+    "proposed_frequency": "Monthly",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 8",
+    "status": "draft"
+  },
+  {
+    "group_id": "TG-008",
+    "name": "IAB - Control Panel Inspection",
+    "legacy_name": "Control Panel Inspection",
+    "applies_to": "All Skids",
+    "proposed_frequency": "Monthly",
+    "frequency_status": "source_proposal_not_OEM_approved",
+    "source_id": "SRC-016",
+    "source_locator": "Task_Groups!row 9",
+    "status": "draft"
+  }
+]

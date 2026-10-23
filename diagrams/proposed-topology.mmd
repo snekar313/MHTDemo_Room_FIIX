@@ -1,0 +1,10 @@
+flowchart TB
+  F["Proposed firewall / routing boundary<br/>Model and policies unverified"]
+  C["Proposed core network<br/>192.168.63.0/24"]
+  F -. "proposed" .-> C
+  C -. "proposed" .-> S1["SKID-01 PLC / Network Core<br/>192.168.10.0/24"]
+  C -. "proposed" .-> S2["SKID-02 VFD / Motion<br/>192.168.20.0/24"]
+  C -. "proposed" .-> S3["SKID-03 GuardLogix / HMI Safety<br/>192.168.30.0/24"]
+  C -. "proposed" .-> S4["SKID-04 Servo Motion Safety<br/>192.168.40.0/24"]
+  C -. "proposed" .-> S5["SKID-05 Guarding / E-stop<br/>192.168.50.0/24"]
+  C -. "proposed" .-> S6["SKID-06 Compact Machine Control<br/>192.168.60.0/24"]

@@ -1,0 +1,21 @@
+﻿Asset ID,Parent Asset ID,Asset Name,Asset Type,Manufacturer,Estimated Catalog Number,Location,Criticality,Description
+DEMO-ROOM,,Integrated Architecture Demo Wall,System,Rockwell Automation,,Demo Room,Critical,Parent asset
+SKID-01,DEMO-ROOM,Discrete IO Operator Station,Process Skid,Rockwell,,Demo Room,Medium,Operator controls and motor starter demo
+SKID-01-PLC,SKID-01,CompactLogix Controller,PLC,Rockwell,5069-L3xERM,Skid 01,High,Estimated CompactLogix controller
+SKID-01-IO,SKID-01,Distributed IO,IO,Rockwell,1734-AENTR,Skid 01,Medium,POINT I/O Ethernet adapter
+SKID-02,DEMO-ROOM,VFD and Motion Panel,Process Skid,Rockwell,,Demo Room,High,Drive and motion demo
+SKID-02-VFD,SKID-02,PowerFlex Drive,VFD,Rockwell,PowerFlex 755TS,Skid 02,High,Visible PF755TS drive
+SKID-02-SERVO,SKID-02,Kinetix Servo System,Motion,Rockwell,2198-K5700,Skid 02,High,Kinetix 5700 servo platform
+SKID-03,DEMO-ROOM,GuardLogix Safety Cell,Process Skid,Rockwell,,Demo Room,High,Safety PLC and HMI
+SKID-03-PLC,SKID-03,Compact GuardLogix,Safety PLC,Rockwell,5069-L3xERMS2,Skid 03,Critical,Estimated GuardLogix 5380
+SKID-03-HMI,SKID-03,PanelView HMI,HMI,Rockwell,2711P PanelView Plus,Skid 03,Medium,Operator interface
+SKID-03-SW,SKID-03,Industrial Ethernet Switch,Network,Rockwell,1783-Stratix,Skid 03,Medium,Managed switch
+SKID-04,DEMO-ROOM,Servo Safety Door Demo,Process Skid,Rockwell,,Demo Room,High,Guarded servo axis
+SKID-04-SERVO,SKID-04,Kinetix Servo Drive,Motion,Rockwell,2198-K5500,Skid 04,High,Kinetix 5500 estimated
+SKID-04-LOCK,SKID-04,Guard Locking Switch,Safety Device,Rockwell,440G Guardmaster,Skid 04,Critical,Safety interlock
+SKID-05,DEMO-ROOM,Safety Zone Network,Process Skid,Rockwell,,Demo Room,Critical,E-stop network demo
+SKID-05-LC,SKID-05,Safety Light Curtain,Safety Device,Rockwell,450L GuardShield,Skid 05,Critical,Light curtain
+SKID-05-RELAY,SKID-05,Safety Controller/Relay,Safety,Rockwell,440R,Skid 05,Critical,Safety relay/controller
+SKID-06,DEMO-ROOM,Linear Motion Ethernet Demo,Process Skid,Rockwell,,Demo Room,Medium,Linear actuator station
+SKID-06-HMI,SKID-06,PanelView HMI,HMI,Rockwell,2711P PanelView Plus,Skid 06,Medium,Local HMI
+SKID-06-SW,SKID-06,Stratix Switch,Network,Rockwell,1783-Stratix 5700,Skid 06,Medium,Industrial Ethernet switch

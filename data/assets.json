@@ -1,0 +1,1060 @@
+[
+  {
+    "asset_id": "IAB-20261023-DEMO-ROOM",
+    "parent_id": "A26",
+    "name": "Rockwell Integrated Architecture Demo Wall",
+    "asset_class": "demo_wall",
+    "record_status": "proposed",
+    "quantity_estimate": 1,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": null,
+    "manufacturer_candidate": null,
+    "description": "Main demonstration wall containing six process skids and common overhead cable tray / demo-room infrastructure.",
+    "photo": "IMG_0192.jpeg",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "IAB_Project_Tree!row 2",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01",
+    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "name": "PLC / Network Core Process Skid",
+    "asset_class": "process_skid",
+    "record_status": "proposed",
+    "quantity_estimate": 1,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": null,
+    "manufacturer_candidate": null,
+    "description": "Central PLC/network/power skid with CompactLogix-style controller, Ethernet switch/security appliance, 22 mm operator devices, protection devices, and field terminal blocks.",
+    "photo": "IMG_0196.jpeg",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "IAB_Project_Tree!row 3",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02",
+    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "name": "VFD and Motion Drive Process Skid",
+    "asset_class": "process_skid",
+    "record_status": "proposed",
+    "quantity_estimate": 1,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": null,
+    "manufacturer_candidate": null,
+    "description": "Drive technology skid with PowerFlex 755TS VFD, Kinetix servo drive modules, branch protection, contactors, and distributed terminal blocks.",
+    "photo": "IMG_0199.jpeg",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "IAB_Project_Tree!row 4",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03",
+    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "name": "GuardLogix HMI Safety Process Skid",
+    "asset_class": "process_skid",
+    "record_status": "proposed",
+    "quantity_estimate": 1,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": null,
+    "manufacturer_candidate": null,
+    "description": "HMI and safety automation skid with PanelView, Compact GuardLogix/CompactLogix class controller, safety I/O, ArmorBlock/field I/O, and operator controls.",
+    "photo": "IMG_0201.jpeg",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "IAB_Project_Tree!row 5",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04",
+    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "name": "Servo Motion Safety Cell Skid",
+    "asset_class": "process_skid",
+    "record_status": "proposed",
+    "quantity_estimate": 1,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": null,
+    "manufacturer_candidate": null,
+    "description": "Motion cell skid with Kinetix class servo drive, servo motor/axis hardware, safety interlocks, safety switch/guard locking, POINT I/O, and terminal marshalling.",
+    "photo": "IMG_0205.jpeg",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "IAB_Project_Tree!row 6",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05",
+    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "name": "Guarding / E-Stop Safety Demonstration Skid",
+    "asset_class": "process_skid",
+    "record_status": "proposed",
+    "quantity_estimate": 1,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": null,
+    "manufacturer_candidate": null,
+    "description": "Machine safety demonstration skid with zone E-stops, GuardShield light curtains, Guardmaster safety switches, ArmorBlock safety I/O, and safety/status lamps.",
+    "photo": "IMG_0206.jpeg",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "IAB_Project_Tree!row 7",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06",
+    "parent_id": "IAB-20261023-DEMO-ROOM",
+    "name": "Compact Machine Control and Drives Skid",
+    "asset_class": "process_skid",
+    "record_status": "proposed",
+    "quantity_estimate": 1,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": null,
+    "manufacturer_candidate": null,
+    "description": "Compact machine control skid with HMI, Stratix switch, PLC, distributed I/O, VFD/servo technology, power distribution, and linear actuator/motor load.",
+    "photo": "IMG_0209.jpeg",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "IAB_Project_Tree!row 8",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B010",
+    "parent_id": "IAB-20261023-SKID-01",
+    "name": "SKID-01 - PLC / PAC",
+    "asset_class": "PLC Controller",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1769 / 5069 CompactLogix family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "CompactLogix / CompactLogix-style controller with Ethernet and I/O rack visible near top",
+    "photo": "IMG_0196 top center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 2",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read controller nameplate or Studio 5000 project for exact CPU and memory option.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B020",
+    "parent_id": "IAB-20261023-SKID-01",
+    "name": "SKID-01 - Industrial firewall / security appliance",
+    "asset_class": "Network Security Appliance",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "FortiGate / Fortinet industrial firewall",
+    "manufacturer_candidate": "Fortinet",
+    "description": "Fortinet FortiGate industrial/security appliance on lower left",
+    "photo": "IMG_0196 lower left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 3",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm model, ports, power requirements, and whether included in IAB as non-RA device.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B030",
+    "parent_id": "IAB-20261023-SKID-01",
+    "name": "SKID-01 - Industrial Ethernet switch",
+    "asset_class": "Ethernet Switch",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Stratix 2000/5700 candidate or third-party switch",
+    "manufacturer_candidate": "Allen-Bradley / third-party",
+    "description": "Small DIN-rail managed/unmanaged Ethernet switch adjacent to firewall",
+    "photo": "IMG_0196 lower center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 4",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Identify label and number of copper/fiber ports.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B040",
+    "parent_id": "IAB-20261023-SKID-01",
+    "name": "SKID-01 - Circuit protection",
+    "asset_class": "Circuit Protection",
+    "record_status": "estimated",
+    "quantity_estimate": 3.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "140G / 1489-M / 1492-SP family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Molded case breaker and DIN rail branch protection",
+    "photo": "IMG_0196 mid/lower panel",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 5",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify voltage, current ratings and SCCR requirements.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B050",
+    "parent_id": "IAB-20261023-SKID-01",
+    "name": "SKID-01 - 22 mm pushbuttons / pilot devices",
+    "asset_class": "Operator Device",
+    "record_status": "estimated",
+    "quantity_estimate": 12.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "800F / 800T / 800H family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Multi-color operator pushbuttons, illuminated indicators, mushroom E-stop",
+    "photo": "IMG_0196 center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 6",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Count exact NO/NC contact blocks and lamp voltages.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-01-B060",
+    "parent_id": "IAB-20261023-SKID-01",
+    "name": "SKID-01 - Terminal blocks / marshalling",
+    "asset_class": "Terminal Block Assembly",
+    "record_status": "estimated",
+    "quantity_estimate": 4.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1492 terminal block family",
+    "manufacturer_candidate": "Allen-Bradley / WAGO",
+    "description": "DIN rail terminal block banks with patch field labeling",
+    "photo": "IMG_0196 left/right edges",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 7",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify manufacturer and terminal count from BOM or panel drawings.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B010",
+    "parent_id": "IAB-20261023-SKID-02",
+    "name": "SKID-02 - VFD",
+    "asset_class": "Variable Frequency Drive",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "PowerFlex 755TS family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "PowerFlex 755TS visible with HIM keypad",
+    "photo": "IMG_0199 right side",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 8",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read voltage, HP/kW, enclosure and option cards.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B020",
+    "parent_id": "IAB-20261023-SKID-02",
+    "name": "SKID-02 - Servo drive",
+    "asset_class": "Servo Drive",
+    "record_status": "estimated",
+    "quantity_estimate": 2.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Kinetix 5700 family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Two Kinetix servo drive modules visible at upper left",
+    "photo": "IMG_0199 upper left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 9",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify bus supply / inverter module mix and current rating.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B030",
+    "parent_id": "IAB-20261023-SKID-02",
+    "name": "SKID-02 - EtherNet/IP option cabling",
+    "asset_class": "Network Interface",
+    "record_status": "estimated",
+    "quantity_estimate": 3.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "EtherNet/IP embedded / option cards",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "EtherNet/IP cables into PowerFlex and Kinetix devices",
+    "photo": "IMG_0199 network cabling",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 10",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify port topology and CIP Motion requirements.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B040",
+    "parent_id": "IAB-20261023-SKID-02",
+    "name": "SKID-02 - Disconnect / breaker",
+    "asset_class": "Circuit Protection",
+    "record_status": "estimated",
+    "quantity_estimate": 3.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "140M / 140G / 1492-SP family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "DIN rail breaker and larger disconnect/protection device",
+    "photo": "IMG_0199 center/right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 11",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify FLA, short circuit ratings, and drive input protection.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B050",
+    "parent_id": "IAB-20261023-SKID-02",
+    "name": "SKID-02 - Contactor / overload",
+    "asset_class": "Motor Starter",
+    "record_status": "estimated",
+    "quantity_estimate": 2.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "100-C / 193-EE candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Contactor/overload assemblies at lower left",
+    "photo": "IMG_0199 lower left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 12",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read contactor and overload nameplates.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-02-B060",
+    "parent_id": "IAB-20261023-SKID-02",
+    "name": "SKID-02 - Terminal blocks / distribution",
+    "asset_class": "Terminal Block Assembly",
+    "record_status": "estimated",
+    "quantity_estimate": 3.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1492 / WAGO terminal blocks",
+    "manufacturer_candidate": "Allen-Bradley / WAGO",
+    "description": "Field terminal blocks at right and adjacent panel edges",
+    "photo": "IMG_0199 right side",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 13",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm terminal counts and sensor/drive I/O mapping.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B010",
+    "parent_id": "IAB-20261023-SKID-03",
+    "name": "SKID-03 - PanelView operator terminal",
+    "asset_class": "HMI",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "PanelView Plus 7 / PanelView 5510 family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Allen-Bradley PanelView-style HMI displaying station test screen",
+    "photo": "IMG_0201 upper left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 14",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read HMI rear label for series, screen size, and Ethernet ports.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B020",
+    "parent_id": "IAB-20261023-SKID-03",
+    "name": "SKID-03 - Safety PLC",
+    "asset_class": "Safety PLC",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Compact GuardLogix 5380 / 5069 family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Compact GuardLogix 5380 class controller with safety cards visible",
+    "photo": "IMG_0201 lower center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 15",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify CPU, safety task support, memory and licensing.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B030",
+    "parent_id": "IAB-20261023-SKID-03",
+    "name": "SKID-03 - Safety and standard I/O",
+    "asset_class": "I/O Module",
+    "record_status": "estimated",
+    "quantity_estimate": 6.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "5069 Compact I/O / POINT I/O / ArmorBlock family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Local 5069 I/O modules and field I/O blocks",
+    "photo": "IMG_0201 lower center/right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 16",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Identify exact module catalog numbers and channel counts.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B040",
+    "parent_id": "IAB-20261023-SKID-03",
+    "name": "SKID-03 - Industrial computer / gateway",
+    "asset_class": "Industrial Computer",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "ASEM / VersaView / ThinManager-ready industrial computer candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Small Allen-Bradley industrial computer or gateway beneath HMI",
+    "photo": "IMG_0201 under HMI",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 17",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read nameplate for exact platform and whether it is IPC, thin client, or gateway.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B050",
+    "parent_id": "IAB-20261023-SKID-03",
+    "name": "SKID-03 - Managed Ethernet switch",
+    "asset_class": "Ethernet Switch",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Stratix / third-party managed switch",
+    "manufacturer_candidate": "Allen-Bradley / third-party",
+    "description": "Blue managed switch / network appliance at lower left",
+    "photo": "IMG_0201 lower left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 18",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm switch make, model and port count.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B060",
+    "parent_id": "IAB-20261023-SKID-03",
+    "name": "SKID-03 - Selector switches / pushbuttons",
+    "asset_class": "Operator Device",
+    "record_status": "estimated",
+    "quantity_estimate": 8.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "800F / 800T family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Three-position selector switches and pushbuttons on black operator plate",
+    "photo": "IMG_0201 right side",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 19",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify contact block mix and lamp voltages.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-03-B070",
+    "parent_id": "IAB-20261023-SKID-03",
+    "name": "SKID-03 - Safety I/O block / M12 connectivity",
+    "asset_class": "Safety I/O",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "ArmorBlock Guard I/O / 1732ES family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "M12 field I/O block with yellow safety leads",
+    "photo": "IMG_0201 lower right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 20",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify safety input/output channel count.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B010",
+    "parent_id": "IAB-20261023-SKID-04",
+    "name": "SKID-04 - Servo drive",
+    "asset_class": "Servo Drive",
+    "record_status": "estimated",
+    "quantity_estimate": 2.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Kinetix 5500 / 5700 family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Kinetix drive module(s) and motor cabling feeding axis fixture",
+    "photo": "IMG_0205 upper center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 21",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read module labels for exact family and current ratings.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B020",
+    "parent_id": "IAB-20261023-SKID-04",
+    "name": "SKID-04 - Servo motor / axis assembly",
+    "asset_class": "Servo Motor",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Kinetix VP / MPL motor family candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Servo motor and guarded linear/rotary test fixture",
+    "photo": "IMG_0205 lower left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 22",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read motor nameplate and axis mechanics.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B030",
+    "parent_id": "IAB-20261023-SKID-04",
+    "name": "SKID-04 - Distributed controller / I/O",
+    "asset_class": "I/O Assembly",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1734 POINT I/O / 5069 Compact I/O candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "POINT I/O rack and controller/safety modules visible at upper right",
+    "photo": "IMG_0205 upper right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 23",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify whether rack is controller, adapter, or remote I/O.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B040",
+    "parent_id": "IAB-20261023-SKID-04",
+    "name": "SKID-04 - Guard locking / safety switch",
+    "asset_class": "Safety Switch",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "440G / 440N Guardmaster family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Red Guardmaster-style safety locking/safety switch on guard door",
+    "photo": "IMG_0205 lower center/right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 24",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify OSSD, locking force, and actuator type.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B050",
+    "parent_id": "IAB-20261023-SKID-04",
+    "name": "SKID-04 - Safety interlock sensor",
+    "asset_class": "Safety Sensor",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "440N / 440G / Guardmaster family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Red safety sensor/actuator mounted to sliding guard",
+    "photo": "IMG_0205 center lower",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 25",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify sensor type and safety rating.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B060",
+    "parent_id": "IAB-20261023-SKID-04",
+    "name": "SKID-04 - Pushbutton / E-stop station",
+    "asset_class": "Operator Device",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "800F / 800T family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Pushbutton station with red/blue/black/E-stop buttons",
+    "photo": "IMG_0205 right side",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 26",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify contact blocks and E-stop reset design.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-04-B070",
+    "parent_id": "IAB-20261023-SKID-04",
+    "name": "SKID-04 - Terminal blocks / safety marshalling",
+    "asset_class": "Terminal Block Assembly",
+    "record_status": "estimated",
+    "quantity_estimate": 2.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1492 / WAGO terminal blocks",
+    "manufacturer_candidate": "Allen-Bradley / WAGO",
+    "description": "Field terminal blocks on right with safety/standard wiring",
+    "photo": "IMG_0205 right side",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 27",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify terminal counts and labeling.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B010",
+    "parent_id": "IAB-20261023-SKID-05",
+    "name": "SKID-05 - Safety light curtains",
+    "asset_class": "Light Curtain",
+    "record_status": "estimated",
+    "quantity_estimate": 2.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "GuardShield 450L / 440L family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Two Allen-Bradley GuardShield light curtain columns",
+    "photo": "IMG_0206 left and right vertical devices",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 28",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read model height, resolution, range and muting/cascading details.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B020",
+    "parent_id": "IAB-20261023-SKID-05",
+    "name": "SKID-05 - Guardmaster safety interlocks",
+    "asset_class": "Safety Switch",
+    "record_status": "estimated",
+    "quantity_estimate": 5.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "440N / 440G / 440K Guardmaster family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Multiple red Guardmaster safety switch/sensor devices",
+    "photo": "IMG_0206 center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 29",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm individual switch function, OSSD/contacts and actuator types.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B030",
+    "parent_id": "IAB-20261023-SKID-05",
+    "name": "SKID-05 - Zone E-stops",
+    "asset_class": "Emergency Stop",
+    "record_status": "estimated",
+    "quantity_estimate": 3.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "800F / 800T E-stop family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Zone 1, Zone 2 and master E-stop stations",
+    "photo": "IMG_0206 left and lower center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 30",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify dual-channel contact configuration and reset logic.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B040",
+    "parent_id": "IAB-20261023-SKID-05",
+    "name": "SKID-05 - Safety I/O / ArmorBlock",
+    "asset_class": "Safety I/O",
+    "record_status": "estimated",
+    "quantity_estimate": 2.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1732ES ArmorBlock Guard I/O candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "M12 safety/standard I/O blocks at lower left",
+    "photo": "IMG_0206 lower left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 31",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify safety input and output point count.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B050",
+    "parent_id": "IAB-20261023-SKID-05",
+    "name": "SKID-05 - Status indicators",
+    "asset_class": "Operator Device",
+    "record_status": "estimated",
+    "quantity_estimate": 6.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "800F / 800T pilot light family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Zone indicator pilot lights and colored pushbuttons",
+    "photo": "IMG_0206 left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 32",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify lamp voltage and status mapping.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-05-B060",
+    "parent_id": "IAB-20261023-SKID-05",
+    "name": "SKID-05 - Terminal block marshalling",
+    "asset_class": "Terminal Block Assembly",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1492 / WAGO terminal blocks",
+    "manufacturer_candidate": "Allen-Bradley / WAGO",
+    "description": "DIN rail terminal block bank at lower right",
+    "photo": "IMG_0206 lower right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 33",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Confirm terminal block count and jumper scheme.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B010",
+    "parent_id": "IAB-20261023-SKID-06",
+    "name": "SKID-06 - PanelView HMI",
+    "asset_class": "HMI",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "PanelView Plus / PanelView 800 family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Allen-Bradley HMI showing machine overview",
+    "photo": "IMG_0209 lower center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 34",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read rear label for display size, family and power.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B020",
+    "parent_id": "IAB-20261023-SKID-06",
+    "name": "SKID-06 - Compact machine controller",
+    "asset_class": "PLC Controller",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Micro800 / CompactLogix / Compact GuardLogix candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "PLC/controller assembly at upper center with I/O modules",
+    "photo": "IMG_0209 upper center",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 35",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read controller faceplate and project file to distinguish Micro800 vs CompactLogix.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B030",
+    "parent_id": "IAB-20261023-SKID-06",
+    "name": "SKID-06 - Managed switch",
+    "asset_class": "Ethernet Switch",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Stratix 5700 / Stratix 5200 candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Allen-Bradley Stratix switch visible mid-left",
+    "photo": "IMG_0209 middle left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 36",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read exact switch model and port count.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B040",
+    "parent_id": "IAB-20261023-SKID-06",
+    "name": "SKID-06 - Linear actuator / motor load",
+    "asset_class": "Actuator",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "Kinetix servo motor / actuator candidate",
+    "manufacturer_candidate": "Allen-Bradley / third-party",
+    "description": "Vertical actuator/servo or linear motion assembly on left",
+    "photo": "IMG_0209 left",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 37",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read actuator and motor labels.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B050",
+    "parent_id": "IAB-20261023-SKID-06",
+    "name": "SKID-06 - VFD / servo drive",
+    "asset_class": "Drive",
+    "record_status": "estimated",
+    "quantity_estimate": 1.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "PowerFlex 520 / Kinetix candidate",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "Drive technology at upper right with Ethernet and power cabling",
+    "photo": "IMG_0209 upper right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 38",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Read drive label to confirm VFD vs servo drive family and size.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B060",
+    "parent_id": "IAB-20261023-SKID-06",
+    "name": "SKID-06 - Power supply and circuit protection",
+    "asset_class": "Power Distribution",
+    "record_status": "estimated",
+    "quantity_estimate": 5.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1606-XLE / 1492-SP / 100-C family",
+    "manufacturer_candidate": "Allen-Bradley",
+    "description": "DIN rail DC power supply, breakers, contactors and branch protection",
+    "photo": "IMG_0209 upper/middle panel",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 39",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify voltage/current ratings and protective device sizes.",
+    "category_tenant": null
+  },
+  {
+    "asset_id": "IAB-20261023-SKID-06-B070",
+    "parent_id": "IAB-20261023-SKID-06",
+    "name": "SKID-06 - Distributed I/O and terminals",
+    "asset_class": "I/O Assembly",
+    "record_status": "estimated",
+    "quantity_estimate": 3.0,
+    "model_verified": null,
+    "catalog_number_verified": null,
+    "candidate_catalog_family": "1734/5069/1492/WAGO candidate",
+    "manufacturer_candidate": "Allen-Bradley / WAGO",
+    "description": "Terminal block and field wiring assemblies on right",
+    "photo": "IMG_0209 right",
+    "evidence": [
+      {
+        "source_id": "SRC-001",
+        "locator": "Skid_BOM!row 40",
+        "claim_status": "inherited_unverified"
+      }
+    ],
+    "verification_action": "Verify module and terminal count.",
+    "category_tenant": null
+  }
+]

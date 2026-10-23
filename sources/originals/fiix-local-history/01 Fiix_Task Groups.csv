@@ -1,0 +1,9 @@
+﻿Group ID,Task Group,Applies To,Frequency
+TG-001,PLC Preventive Maintenance,CompactLogix / GuardLogix,Quarterly
+TG-002,HMI Maintenance,PanelView HMI,Quarterly
+TG-003,Industrial Network Inspection,Stratix Switches,Quarterly
+TG-004,VFD Maintenance,PowerFlex 755TS,Semi-Annual
+TG-005,Servo System Maintenance,Kinetix 5500/5700,Semi-Annual
+TG-006,Safety System Validation,Guardmaster / GuardLogix,Quarterly
+TG-007,Light Curtain Inspection,GuardShield 450L,Monthly
+TG-008,Control Panel Inspection,All Skids,Monthly

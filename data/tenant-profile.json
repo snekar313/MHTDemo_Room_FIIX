@@ -1,0 +1,235 @@
+{
+  "Assets.csv": {
+    "source_id": "SRC-018",
+    "headers": [
+      "Location",
+      "Name",
+      "Code",
+      "Asset Status",
+      "Last Price Currency",
+      "Notes",
+      ""
+    ],
+    "nonblank_data_rows": 2,
+    "rows": [
+      {
+        "line": 2,
+        "values": [
+          "",
+          "(No Site)",
+          "",
+          "on",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "line": 3,
+        "values": [
+          "",
+          "RLENG",
+          "A42",
+          "on",
+          "$",
+          "",
+          ""
+        ]
+      }
+    ],
+    "trailing_unnamed_column": true,
+    "full_tenant_coverage": false
+  },
+  "TaskGroups.csv": {
+    "source_id": "SRC-019",
+    "headers": [
+      "Name",
+      "# Tasks",
+      ""
+    ],
+    "nonblank_data_rows": 6,
+    "rows": [
+      {
+        "line": 2,
+        "values": [
+          "PLC Input Checkout",
+          "2",
+          ""
+        ]
+      },
+      {
+        "line": 3,
+        "values": [
+          "PLC Output Checkout",
+          "0",
+          ""
+        ]
+      },
+      {
+        "line": 4,
+        "values": [
+          "Network Checks",
+          "0",
+          ""
+        ]
+      },
+      {
+        "line": 5,
+        "values": [
+          "Analog Input Checkout",
+          "0",
+          ""
+        ]
+      },
+      {
+        "line": 6,
+        "values": [
+          "Analog Output Checkout",
+          "0",
+          ""
+        ]
+      },
+      {
+        "line": 7,
+        "values": [
+          "Thermal Audit",
+          "3",
+          ""
+        ]
+      }
+    ],
+    "trailing_unnamed_column": true,
+    "full_tenant_coverage": false
+  },
+  "WorkOrdersAdministration.csv": {
+    "source_id": "SRC-020",
+    "headers": [
+      "Code",
+      "Description",
+      "Priority",
+      "Assets",
+      "Assigned Users",
+      "Status",
+      "Type",
+      "Origin Work Order",
+      "Task Status",
+      "Completed By Users",
+      "Time Estimated Hours",
+      "Time Spent Hours",
+      ""
+    ],
+    "nonblank_data_rows": 6,
+    "rows": [
+      {
+        "line": 2,
+        "values": [
+          "2",
+          "Level 1 - Commissioning",
+          "Highest",
+          "Honeywell Sorter (A8)",
+          "",
+          "Open",
+          "Inspection",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "line": 3,
+        "values": [
+          "3",
+          "Level 2 - Commissioning",
+          "",
+          "Honeywell Sorter (A8)",
+          "",
+          "Open",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "line": 4,
+        "values": [
+          "4",
+          "",
+          "",
+          "Honeywell Sorter (A8)",
+          "Ken Lapolla",
+          "Open",
+          "Inspection",
+          "",
+          "",
+          "",
+          "0.04",
+          "",
+          ""
+        ]
+      },
+      {
+        "line": 5,
+        "values": [
+          "25",
+          "",
+          "Medium",
+          "Coffee Maker SUW-OF-EAST (A31)",
+          "Andrew Wright",
+          "Open",
+          "Inspection",
+          "",
+          "",
+          "",
+          "0.08",
+          "",
+          ""
+        ]
+      },
+      {
+        "line": 6,
+        "values": [
+          "33",
+          "Report Vehicle Mileage",
+          "Low",
+          "Vehicle - 2022 Subaru Outback (A47)",
+          "Ruly Lopez",
+          "Open",
+          "Meter reading",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "line": 7,
+        "values": [
+          "35",
+          "",
+          "Medium",
+          "1694 Demo (A27)",
+          "",
+          "Work In Progress",
+          "Inspection",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "trailing_unnamed_column": true,
+    "full_tenant_coverage": false
+  }
+}

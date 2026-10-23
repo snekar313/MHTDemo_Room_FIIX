@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-10-23",
+  "local_checks": "pending",
+  "native_IAB": "BLOCKED: IAB/PST software validation not performed",
+  "fiix_asset_schema": "Template headers and parent mapping inspected; tenant import not tested",
+  "task_group_import": "BLOCKED: summary export contains no task definitions or import contract",
+  "work_order_import": "BLOCKED: export layout is not an import contract; new code generation and reference matching untested",
+  "TXT_guides": "BLOCKED: both referenced TXT copies missing",
+  "github": "Public repository verified; no project data uploaded",
+  "cloud": "Not configured or executed"
+}
