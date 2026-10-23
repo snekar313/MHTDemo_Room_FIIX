@@ -8,10 +8,11 @@
     "Jobs": 12,
     "Tasks": 132,
     "Device Register": 39,
-    "Field Map": 17
+    "Field Map": 18
   },
   "actual_observations_blank": true,
   "visual_review": "PASS: all four sheets rendered and inspected; headings, task descriptions, evidence requirements and unverified candidate fields legible",
   "tenant_changes": "NONE",
-  "required_sm_task_type": "text on 12 rows; other SM field values preserved"
+  "required_sm_task_type": "text on 12 rows; other SM field values preserved",
+  "maintenance_type": "Preventative on all 12 SM rows and workbook Jobs rows; Task Type remains text"
 }

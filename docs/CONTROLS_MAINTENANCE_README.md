@@ -2,6 +2,8 @@
 
 This package contains 12 skid-specific task groups with 132 tasks: 10 monthly condition checks and 12 quarterly configuration checks per skid. These support 12 proposed scheduled-maintenance definitions. Proposed intervals and labor estimates need controls-owner approval; no actual readings, completed inspections or live schedule creation are claimed.
 
+All 12 job definitions use Maintenance Type Preventative per user request. Task Type remains text for recording inspection observations; it is a separate Fiix field. Verify the exact Preventative lookup exists in the destination tenant before importing.
+
 ## Deliverables and sequence
 
 1. MHT_Controls_Maintenance_Plan.xlsx: Jobs, ordered Tasks, Device Register and Field Map for review.

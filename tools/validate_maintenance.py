@@ -40,6 +40,7 @@ def main():
     for r,j in zip(sm,jobs):
         if r['Asset Code']!=j['skid_code'] or r['Task Group']!=j['group'] or r['Create Work Order Even If There Are Open Ones']!='false': errors.append('SM association/duplicate-WO policy mismatch')
         if r.get('Task Type')!='text' or j.get('task_type')!='text': errors.append('missing or incorrect required SM Task Type')
+        if r.get('Maintenance Type')!='Preventative' or j.get('maintenance_type')!='Preventative': errors.append('Maintenance Type must be Preventative as requested')
     h,register=csvrows('Device_Inspection_Register.csv')
     if len(register)!=39 or {r['Asset Code'] for r in register}!=set(children): errors.append('device register scope mismatch')
     if any(v for r in register for k,v in r.items() if k not in h[:6]): errors.append('fabricated actual device reading')

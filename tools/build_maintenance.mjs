@@ -53,7 +53,7 @@ for(const skid of skids){
   const job={code:`IAB-SM-S${n}-${cadence}`,skid_code:skid.asset_id,skid_name:skid.name,description:`MHT Demo Room SKID-${n} - ${cadence==='M'?'monthly condition inspection':'quarterly firmware and network audit'}`,group:`MHT IAB S${n} ${cadence==='M'?'Monthly Controls Inspection':'Quarterly Configuration Audit'}`,cadence_months:cadence==='M'?1:3,proposed_labor_hours:cadence==='M'?0.5:1.5,priority:'Medium',maintenance_type:'Inspection',start_work_order_status:'Open',desired_state:'Paused; no trigger',start_date:null,assigned_user:null,interval_approval:'Proposed; controls owner approval required',live_asset_match:'User reports newly added; reverify in tenant before linking',target_component_codes:children.map(a=>a.asset_id)};
   const items=[...(cadence==='M'?commonM:commonQ),...domain[n][cadence.toLowerCase()]];
   items.forEach(([action,record,acceptance],i)=>tasks.push({task_id:`${job.code}-T${String(i+1).padStart(2,'0')}`,sm_code:job.code,group:job.group,sequence:i+1,skid_code:skid.asset_id,target_codes:children.map(a=>a.asset_id),action,record_required:record,acceptance,task_type:'text',observations:null,source:'Authored planning definition from canonical IAB scope and user request; not an executed inspection'}));
-  job.task_count=items.length; job.task_type='text'; jobs.push(job);
+  job.task_count=items.length; job.task_type='text'; job.maintenance_type='Preventative'; jobs.push(job);
  }
 }
 const deviceFields=['Asset Code','Parent Skid Code','Asset Name','Asset Class','Candidate Family (UNVERIFIED)','Quantity Estimate','Device Instance / Position','Make (observed)','Model (observed)','Catalog Number (observed)','Serial Number (observed)','Hardware Series / Revision (observed)','Firmware / Software Version (observed)','Interface ID','IPv4 Address (observed)','Subnet Mask (observed)','Gateway (observed)','MAC Address (observed)','DHCP / Static (observed)','Switch / Port (observed)','VLAN / NAT Role (observed)','Approved Baseline Reference','Backup Reference','Evidence / Read Method','Observation Date','Inspected By','Result / Exception Reference','Applicability / N-A Reason'];
@@ -74,8 +74,8 @@ function sheet(name,headers,rows,widths){
  s.getRangeByIndexes(0,0,1,headers.length).format={fill:'#243B53',font:{name:'Arial',size:10,bold:true,color:'#FFFFFF'},wrapText:true,rowHeight:42};
  s.getRangeByIndexes(1,0,rows.length,headers.length).format.autofitRows(); s.freezePanes.freezeRows(1); s.freezePanes.freezeColumns(Math.min(2,headers.length)); return s;
 }
-const jobHeaders=['SM Code','Skid Code','Job Definition','Proposed Cadence','Task Group','Task Count','Proposed Labor (h)','Planned Integration State','Start Date - needs approval','Owner - needs assignment'];
-const jobRows=jobs.map(j=>[j.code,j.skid_code,j.description,j.cadence_months===1?'Monthly - proposed':'Quarterly - proposed',j.group,j.task_count,j.proposed_labor_hours,j.desired_state,'','']);
+const jobHeaders=['SM Code','Skid Code','Job Definition','Proposed Cadence','Task Group','Task Count','Proposed Labor (h)','Planned Integration State','Start Date - needs approval','Owner - needs assignment','Maintenance Type'];
+const jobRows=jobs.map(j=>[j.code,j.skid_code,j.description,j.cadence_months===1?'Monthly - proposed':'Quarterly - proposed',j.group,j.task_count,j.proposed_labor_hours,j.desired_state,'','',j.maintenance_type]);
 const jobSheet=sheet('Jobs',jobHeaders,jobRows,[24,22,58,24,54,14,18,26,24,26]);
 jobSheet.getRange('I2:J13').format.fill='#FFF2CC';jobSheet.getRange('G2:G13').setNumberFormat('0.0');
 sheet('Tasks',defsHeaders,defs,[24,45,12,32,22,65,56,74,74,16]);
@@ -100,6 +100,7 @@ const mapRows=[
  ['Raw SM source','sources/private/maintenance/ScheduledMaintenanceList.csv','Local-only copy and SHA-256 profile','Not published under previous source-set permission.']
 ];
 mapRows.push(['Task Type','User-reported tenant importer requirement','text on all 12 SM rows','Matches the data-recording task type in the task groups. Verify this field mapping in the tenant preview.']);
+mapRows.push(['Maintenance Type','User-requested job classification','Preventative on all 12 SM rows','Separate from Task Type; verify the exact tenant maintenance-type lookup.']);
 sheet('Field Map',['Field / Topic','Source','Use in package','Integration rule'],mapRows,[36,65,55,92]);
 // CSV outputs share the same underlying task and job definitions as the workbook.
 const csvCell=v=>{const s=String(v??'');return /[",\r\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;};
@@ -114,7 +115,7 @@ for(const [name,h,r] of matrices) await fs.writeFile(path.join(out,name),'\uFEFF
 await (await SpreadsheetFile.exportXlsx(wb)).save(path.join(out,'MHT_Controls_Maintenance_Plan.xlsx'));
 await fs.writeFile(path.join(root,'data/maintenance-plan.json'),JSON.stringify({facility:'A26',jobs,tasks,observed_values_populated:false,proposed_cadences:true,live_writes_authorized:false,source_docs:mapRows.slice(12,15)},null,2)+'\n');
 const qa=path.join(root,'validation/previews/maintenance');await fs.mkdir(qa,{recursive:true});
-for(const [name,range] of [['Jobs','A1:H5'],['Tasks','G1:J4'],['Device Register','A1:H5'],['Field Map','A16:D18']]){
+for(const [name,range] of [['Jobs','I1:K5'],['Tasks','G1:J4'],['Device Register','A1:H5'],['Field Map','A18:D19']]){
  const img=await wb.render({sheetName:name,range,scale:1.25,format:'png'});await fs.writeFile(path.join(qa,name.replaceAll(' ','_')+'.png'),new Uint8Array(await img.arrayBuffer()));
 }
 console.log(JSON.stringify({jobs:jobs.length,groups:jobs.length,tasks:tasks.length,component_groups:components.length,files:matrices.map(x=>x[0]),workbook:'MHT_Controls_Maintenance_Plan.xlsx',live_changes:false}));
