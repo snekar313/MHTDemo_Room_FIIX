@@ -1,13 +1,18 @@
 {
   "status": "PASS",
-  "scope": "offline structure, source hashes, CSV roundtrip, and supplied-export collision checks only",
+  "scope": "offline source hashes, CSV integrity, staged dependency checks and supplied-export collision checks only; preceding batches must be imported and verified separately",
   "errors": [],
   "asset_rows": 46,
+  "batch_rows": [
+    1,
+    6,
+    39
+  ],
   "source_hashes_checked": 36,
   "existing_facility": "A26",
   "existing_facility_import_rows": 0,
   "supplied_asset_rows": 2,
   "full_tenant_collision_check": "BLOCKED: supplied asset export is incomplete",
-  "fiix_import": "NOT_EXECUTED",
+  "fiix_import": "USER_REPORTED_FAILED_SINGLE_FILE; staged imports not executed by agent",
   "native_IAB": "NOT_GENERATED"
 }

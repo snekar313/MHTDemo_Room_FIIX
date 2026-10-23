@@ -6,7 +6,7 @@
 - [x] Asset-only release: 46 proposed new rows and no facility/update rows.
 - [x] A26 facility/category/parent independently observed in the live browser.
 - [x] Unique new codes and parent-before-child ordering; no imported A26 or BHQ row.
-- [x] Column order follows supplied official template, excluding its custom-field placeholder.
+- [x] Six populated fields follow official template names/order; unused fields are omitted.
 - [x] Source quantity estimates and candidate families explicitly labeled; verified fields empty.
 - [x] CSV parsed back and matched to canonical identities and hierarchy.
 - [x] No field-value double quotes or multiline content prohibited by supplied reference.
@@ -19,13 +19,17 @@ Workbook saved-value comparison and visual QA are recorded in validation/results
 - [ ] Obtain a complete current tenant asset export, including asset codes, names and parents. Recheck both codes and name/code pairs. Current coverage is insufficient to guarantee no overwrite.
 - [ ] Reconcile any partial previous import in the IAB- namespace; never blindly reupload.
 - [ ] Confirm root belongs under A26 and review the 39 proposed component groups and estimated quantities.
-- [ ] Review equipment category defaults; blank Category is not a validated classification choice for this tenant.
+- [ ] Review explicit Equipment category on skids/components and Locations And Facilities on the wall.
 - [ ] Verify the current import wizard maps Asset Name, Asset Code and Location Code as documented. Inspect blank-field behavior and any update options.
 - [ ] Run a separately authorized small parent-first test and verify created records and hierarchy. If the tool cannot reject existing matches, require complete collision evidence before proceeding.
 - [ ] Confirm no existing tenant records will be updated in the actual preview; stop on collisions, update counts, missing parents, unrecognized fields or unexplained warnings.
 - [ ] For full release, verify imported counts, sample each skid's parent, compare exports after import and preserve logs/screenshots. Keep created-record IDs for reconciliation. Do not delete existing assets as rollback.
 
-No Fiix import or live data mutation has been performed. Task-group/work-order exports remain outside current scope.
+The user reported a failed combined-file import. No staged import or live data mutation has been performed by the agent. Task-group/work-order exports remain outside current scope.
+
+## Staged import requirement
+
+Follow docs/STAGED_ASSET_IMPORT.md. Verify the saved wall before importing skids, and all six saved skids before importing components. Offline checks now reject parent dependencies inside a batch. The combined CSV/workbook is reference-only.
 
 ## Engineering and Cloud gates
 

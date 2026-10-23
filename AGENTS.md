@@ -11,6 +11,7 @@ These instructions apply to the entire repository.
 - Candidate catalog families and wildcard numbers belong in provenance and Notes. Never promote them to verified Model, serial or procurement fields without evidence.
 - Preserve field-level distinction among proposed, estimated, conflicting and verified values. A high confidence label in an old workbook does not prove an exact catalog number.
 - The official template maps parent codes through Location Code. Retain parent-before-child order and reject cycles, duplicate codes and missing parents.
+- After the reported unknown-location failure, use three separate imports: wall, skids, components. A parent must be saved before the batch referencing it. Combined files are reference-only. Use explicit observed categories and omit unused blank fields. Follow docs/STAGED_ASSET_IMPORT.md.
 - Match exact tenant category/lookup names only when observed or exported. Do not infer tenant internal IDs from labels or old workbooks.
 - Compare against a complete current tenant export before claiming create-only safety. The supplied two-row asset export provides partial collision coverage only.
 - Never describe a summary export as a validated task-group or work-order import contract.

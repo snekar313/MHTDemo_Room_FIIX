@@ -18,6 +18,17 @@ def validate(assets):
         if a['catalog_number_verified'] is not None: errors.append('unreviewed verified catalog number')
         seen.add(a['asset_id'])
     return errors
+def validate_batches(batches,existing):
+    errors=[]; known=set(existing); all_codes=set()
+    for number,rows in enumerate(batches,1):
+        codes=[r['Asset Code'] for r in rows]
+        if len(codes)!=len(set(codes)): errors.append('duplicate code within batch')
+        for row in rows:
+            if row['Asset Code'] in known|all_codes: errors.append('existing or repeated asset code in batch')
+            if row['Location Code'] not in known: errors.append(f'batch {number} parent must exist before batch: '+row['Location Code'])
+            if not row['Category']: errors.append('blank category')
+        known.update(codes); all_codes.update(codes)
+    return errors
 def main():
     assets=read('data/assets.json'); errors=validate(assets)
     manifest=read('sources/manifest.json'); srcids={s['source_id'] for s in manifest}
@@ -32,11 +43,13 @@ def main():
     supplied_pairs={(r['values'][ni],r['values'][ci]) for r in profile['rows'] if len(r['values'])>ci}
     for a in assets:
         if a['asset_id'] in supplied_codes or (a['name'],a['asset_id']) in supplied_pairs: errors.append('collision with supplied tenant export '+a['asset_id'])
-    p=ROOT/'outputs/new-assets-only/Assets.csv'
+    p=ROOT/'outputs/new-assets-only/REFERENCE_ONLY_All_Assets.csv'
     if not p.exists(): errors.append('asset CSV missing')
     else:
         with p.open(encoding='utf-8-sig',newline='') as f: rows=list(csv.reader(f))
-        expected=[h for h in read('schemas/fiix-assets-template-columns.json')['headers'] if h!='*Any Custom Fields*']
+        expected=['Asset Name','Asset Code','Category','Location Code','Asset Description','Notes']
+        template=read('schemas/fiix-assets-template-columns.json')['headers']
+        if any(h not in template for h in expected): errors.append('unsupported template field')
         if rows[0]!=expected: errors.append('template header mismatch')
         if len(rows)-1!=len(assets): errors.append('row count mismatch')
         code_idx=expected.index('Asset Code'); parent_idx=expected.index('Location Code')
@@ -44,6 +57,15 @@ def main():
             if len(row)!=len(expected): errors.append('CSV column count mismatch')
             if row[code_idx]!=a['asset_id'] or row[parent_idx]!=a['parent_id']: errors.append('CSV hierarchy mismatch')
             if any('"' in v or '\r' in v or '\n' in v for v in row): errors.append('template-prohibited quote/newline in field')
-    result=dict(status='PASS' if not errors else 'FAIL',scope='offline structure, source hashes, CSV roundtrip, and supplied-export collision checks only',errors=errors,asset_rows=len(assets),source_hashes_checked=sum(bool(s.get('path')) for s in manifest),existing_facility='A26',existing_facility_import_rows=0,supplied_asset_rows=profile['nonblank_data_rows'],full_tenant_collision_check='BLOCKED: supplied asset export is incomplete',fiix_import='NOT_EXECUTED',native_IAB='NOT_GENERATED')
+    batches=[]
+    for filename in ['01_Demo_Wall.csv','02_Process_Skids.csv','03_Component_Groups.csv']:
+        stage=ROOT/'outputs/new-assets-only'/filename
+        if not stage.exists(): errors.append('missing stage '+filename); continue
+        with stage.open(encoding='utf-8-sig',newline='') as f: batches.append(list(csv.DictReader(f)))
+    errors.extend(validate_batches(batches,{'A26'}))
+    staged=[r for batch in batches for r in batch]
+    if len(staged)!=len(assets) or {r['Asset Code'] for r in staged}!={a['asset_id'] for a in assets}: errors.append('staged asset coverage mismatch')
+    if p.exists() and staged!=list(csv.DictReader(p.open(encoding='utf-8-sig',newline=''))): errors.append('stages differ from reference data')
+    result=dict(status='PASS' if not errors else 'FAIL',scope='offline source hashes, CSV integrity, staged dependency checks and supplied-export collision checks only; preceding batches must be imported and verified separately',errors=errors,asset_rows=len(assets),batch_rows=[len(b) for b in batches],source_hashes_checked=sum(bool(s.get('path')) for s in manifest),existing_facility='A26',existing_facility_import_rows=0,supplied_asset_rows=profile['nonblank_data_rows'],full_tenant_collision_check='BLOCKED: supplied asset export is incomplete',fiix_import='USER_REPORTED_FAILED_SINGLE_FILE; staged imports not executed by agent',native_IAB='NOT_GENERATED')
     (ROOT/'validation/results.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8'); print(json.dumps(result)); return bool(errors)
 if __name__=='__main__': sys.exit(main())

@@ -1,17 +1,18 @@
 {
   "status": "PASS",
   "data_rows": 46,
-  "columns": 27,
-  "saved_xlsx_matches_csv": true,
-  "only_changed_fields": [
-    "Asset Code",
-    "Location Code"
+  "columns": 6,
+  "batch_rows": [
+    1,
+    6,
+    39
   ],
-  "existing_parent": "A26",
-  "date_removed_from_all_codes": true,
+  "saved_xlsx_matches_reference_csv": true,
+  "visual_review": "PASS: hierarchy and explicit categories legible; provenance Notes legible",
   "rendered_ranges": [
     "A1:D8",
-    "A9:D15"
+    "A9:D15",
+    "F9:F11"
   ],
-  "visual_review": "PASS: updated code and parent-reference columns are readable"
+  "tenant_acceptance": "NOT_TESTED: user reported failed combined import; staged files await separate import and verification"
 }

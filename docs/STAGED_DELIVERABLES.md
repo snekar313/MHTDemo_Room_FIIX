@@ -6,7 +6,7 @@ Deliver manifest, immutable originals, photo index, source extracts and conflict
 
 ## Stage 1: fresh asset-only release (current)
 
-Deliver 46-row Assets.csv, matching review workbook, canonical hierarchy/schema, A26 parent evidence and offline validation results. No task groups, work orders or existing-record updates. Acceptance requires local structural checks and visual QA. Runtime import remains a separate gate. Full-tenant collision coverage is currently blocked by the limited export.
+Deliver three separate staged CSV imports totaling 46 rows (wall 1, skids 6, component groups 39), combined reference data, review workbook, canonical hierarchy/schema, A26 parent evidence and offline validation results. The prior combined import failed with unknown parent codes; see docs/STAGED_ASSET_IMPORT.md. No task groups, work orders or existing-record updates. Acceptance requires local structural checks and visual QA. Runtime acceptance of each stage remains a separate gate. Full-tenant collision coverage is currently blocked by the limited export.
 
 ## Stage 2: IAB/PST BOM
 

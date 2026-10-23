@@ -20,7 +20,7 @@
       }
     ],
     "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
-    "category_tenant": null
+    "category_tenant": "Locations And Facilities"
   },
   {
     "asset_id": "IAB-SKID-01",
@@ -43,7 +43,7 @@
       }
     ],
     "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-02",
@@ -66,7 +66,7 @@
       }
     ],
     "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03",
@@ -89,7 +89,7 @@
       }
     ],
     "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04",
@@ -112,7 +112,7 @@
       }
     ],
     "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-05",
@@ -135,7 +135,7 @@
       }
     ],
     "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06",
@@ -158,7 +158,7 @@
       }
     ],
     "verification_action": "Confirm physical boundary, parent placement, and destination tenant category.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-01-B010",
@@ -181,7 +181,7 @@
       }
     ],
     "verification_action": "Read controller nameplate or Studio 5000 project for exact CPU and memory option.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-01-B020",
@@ -204,7 +204,7 @@
       }
     ],
     "verification_action": "Confirm model, ports, power requirements, and whether included in IAB as non-RA device.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-01-B030",
@@ -227,7 +227,7 @@
       }
     ],
     "verification_action": "Identify label and number of copper/fiber ports.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-01-B040",
@@ -250,7 +250,7 @@
       }
     ],
     "verification_action": "Verify voltage, current ratings and SCCR requirements.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-01-B050",
@@ -273,7 +273,7 @@
       }
     ],
     "verification_action": "Count exact NO/NC contact blocks and lamp voltages.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-01-B060",
@@ -296,7 +296,7 @@
       }
     ],
     "verification_action": "Verify manufacturer and terminal count from BOM or panel drawings.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-02-B010",
@@ -319,7 +319,7 @@
       }
     ],
     "verification_action": "Read voltage, HP/kW, enclosure and option cards.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-02-B020",
@@ -342,7 +342,7 @@
       }
     ],
     "verification_action": "Verify bus supply / inverter module mix and current rating.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-02-B030",
@@ -365,7 +365,7 @@
       }
     ],
     "verification_action": "Verify port topology and CIP Motion requirements.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-02-B040",
@@ -388,7 +388,7 @@
       }
     ],
     "verification_action": "Verify FLA, short circuit ratings, and drive input protection.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-02-B050",
@@ -411,7 +411,7 @@
       }
     ],
     "verification_action": "Read contactor and overload nameplates.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-02-B060",
@@ -434,7 +434,7 @@
       }
     ],
     "verification_action": "Confirm terminal counts and sensor/drive I/O mapping.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03-B010",
@@ -457,7 +457,7 @@
       }
     ],
     "verification_action": "Read HMI rear label for series, screen size, and Ethernet ports.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03-B020",
@@ -480,7 +480,7 @@
       }
     ],
     "verification_action": "Verify CPU, safety task support, memory and licensing.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03-B030",
@@ -503,7 +503,7 @@
       }
     ],
     "verification_action": "Identify exact module catalog numbers and channel counts.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03-B040",
@@ -526,7 +526,7 @@
       }
     ],
     "verification_action": "Read nameplate for exact platform and whether it is IPC, thin client, or gateway.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03-B050",
@@ -549,7 +549,7 @@
       }
     ],
     "verification_action": "Confirm switch make, model and port count.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03-B060",
@@ -572,7 +572,7 @@
       }
     ],
     "verification_action": "Verify contact block mix and lamp voltages.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-03-B070",
@@ -595,7 +595,7 @@
       }
     ],
     "verification_action": "Verify safety input/output channel count.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04-B010",
@@ -618,7 +618,7 @@
       }
     ],
     "verification_action": "Read module labels for exact family and current ratings.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04-B020",
@@ -641,7 +641,7 @@
       }
     ],
     "verification_action": "Read motor nameplate and axis mechanics.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04-B030",
@@ -664,7 +664,7 @@
       }
     ],
     "verification_action": "Verify whether rack is controller, adapter, or remote I/O.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04-B040",
@@ -687,7 +687,7 @@
       }
     ],
     "verification_action": "Verify OSSD, locking force, and actuator type.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04-B050",
@@ -710,7 +710,7 @@
       }
     ],
     "verification_action": "Verify sensor type and safety rating.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04-B060",
@@ -733,7 +733,7 @@
       }
     ],
     "verification_action": "Verify contact blocks and E-stop reset design.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-04-B070",
@@ -756,7 +756,7 @@
       }
     ],
     "verification_action": "Verify terminal counts and labeling.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-05-B010",
@@ -779,7 +779,7 @@
       }
     ],
     "verification_action": "Read model height, resolution, range and muting/cascading details.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-05-B020",
@@ -802,7 +802,7 @@
       }
     ],
     "verification_action": "Confirm individual switch function, OSSD/contacts and actuator types.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-05-B030",
@@ -825,7 +825,7 @@
       }
     ],
     "verification_action": "Verify dual-channel contact configuration and reset logic.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-05-B040",
@@ -848,7 +848,7 @@
       }
     ],
     "verification_action": "Verify safety input and output point count.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-05-B050",
@@ -871,7 +871,7 @@
       }
     ],
     "verification_action": "Verify lamp voltage and status mapping.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-05-B060",
@@ -894,7 +894,7 @@
       }
     ],
     "verification_action": "Confirm terminal block count and jumper scheme.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06-B010",
@@ -917,7 +917,7 @@
       }
     ],
     "verification_action": "Read rear label for display size, family and power.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06-B020",
@@ -940,7 +940,7 @@
       }
     ],
     "verification_action": "Read controller faceplate and project file to distinguish Micro800 vs CompactLogix.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06-B030",
@@ -963,7 +963,7 @@
       }
     ],
     "verification_action": "Read exact switch model and port count.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06-B040",
@@ -986,7 +986,7 @@
       }
     ],
     "verification_action": "Read actuator and motor labels.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06-B050",
@@ -1009,7 +1009,7 @@
       }
     ],
     "verification_action": "Read drive label to confirm VFD vs servo drive family and size.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06-B060",
@@ -1032,7 +1032,7 @@
       }
     ],
     "verification_action": "Verify voltage/current ratings and protective device sizes.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   },
   {
     "asset_id": "IAB-SKID-06-B070",
@@ -1055,6 +1055,6 @@
       }
     ],
     "verification_action": "Verify module and terminal count.",
-    "category_tenant": null
+    "category_tenant": "Equipment"
   }
 ]

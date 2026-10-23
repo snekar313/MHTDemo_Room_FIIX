@@ -13,9 +13,9 @@ The machine-readable internal schema is schemas/asset.schema.json. This is a pro
 - `description`, `photo`: source description and photo/region reference.
 - `evidence`: source_id, locator, claim_status. Verification of one field does not verify all fields.
 - `verification_action`: concrete next evidence required.
-- `category_tenant`: exact approved category name or null; blank equipment categories use the supplied template's default behavior pending preview.
+- `category_tenant`: exact observed tenant category name. The wall uses Locations And Facilities; skids and component groups use Equipment.
 
-Asset Name maps to name; Asset Code to asset_id; Location Code to parent_id; Asset Description to description. Notes carry source row, estimated quantity and labeled candidate family. The root's Category is the exact category observed in the tenant, Locations And Facilities. Other optional template fields are empty. There is no Quantity column in the supplied asset import template, so quantity estimates remain Notes and canonical data.
+Asset Name maps to name; Asset Code to asset_id; Location Code to parent_id; Asset Description to description. Notes carry source row, estimated quantity and labeled candidate family. Only these five fields and Category are included in the staged CSVs. Unused optional fields are omitted. There is no Quantity column in the supplied asset import template, so quantity estimates remain Notes and canonical data.
 
 Use data/aliases.json for explicit source IDs. Prior Fiix asset rows are retained in source-extracts.json, not automatically matched to BOM groups. A class similarity is insufficient evidence to merge physical devices.
 

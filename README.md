@@ -4,7 +4,7 @@ Repository: `snekar313/MHTDemo_Room_FIIX`. This project consolidates the IAB pro
 
 ## Current deliverable: new assets only
 
-Use `outputs/new-assets-only/Assets.csv` for the proposed asset import. `Fiix_IAB_New_Assets_A26.xlsx` is the matching review workbook with one Import Sheet. It is a fresh workbook based on the supplied template's columns, not a modified original template.
+Use the three CSVs in `outputs/new-assets-only/` in order: **01_Demo_Wall.csv** (1 row), **02_Process_Skids.csv** (6 rows), then **03_Component_Groups.csv** (39 rows). Complete and verify each import before uploading the next. See [staged import instructions](docs/STAGED_ASSET_IMPORT.md). The combined CSV and matching review workbook are reference-only after the reported unknown-parent errors. The previous Assets.csv is superseded.
 
 The draft contains 46 records: one demo-wall parent, six skids, and 39 component groups from `Rockwell_Demo_Room_IAB_Project_Builder.xlsx`. Component groups retain estimated quantities. A group of 12 pushbuttons is one proposed maintainable group, not 12 individually verified devices.
 
@@ -16,9 +16,9 @@ New codes use `IAB-`. Do not regenerate a different namespace on every rerun: on
 
 ## What has and has not been validated
 
-Offline checks cover unique codes, parent order, source hashes, CSV roundtrip, template headers, no A26/BHQ update rows, and collisions against the supplied two-row asset export. The workbook has been rendered and its saved values checked against the CSV. **A full-tenant collision check and a Fiix import have not been performed.** No native `.IAB` file has been generated or opened in IAB/PST.
+Offline checks cover unique codes, source hashes, CSV integrity, stage dependencies, no A26/BHQ update rows, and collisions against the supplied two-row asset export. The workbook has been rendered and its saved values checked against the reference CSV. **A full-tenant collision check has not been performed. The user reported a failed single-file import; the corrected staged imports have not been executed by the agent.** No native `.IAB` file has been generated or opened in IAB/PST.
 
-The 2023-06-13 template is a user-supplied official reference, not evidence that every field is supported by this tenant today. Its literal `*Any Custom Fields*` placeholder is omitted; the other 27 columns retain their order. No custom field is invented. The new demo-wall root uses the observed tenant category `Locations And Facilities`. Equipment categories are blank, allowing the template's documented default; review category placement in the import preview before importing. Verified Model, serial, supplier links, accounting fields, and catalog numbers are left blank. Candidate families appear only as explicitly unverified Notes and canonical data.
+The staged files use six populated official fields: Asset Name, Asset Code, Category, Location Code, Asset Description and Notes. Unused blank fields and the custom-field placeholder are omitted. The wall uses the observed tenant category Locations And Facilities. Skids and components explicitly use Equipment, also observed in the tenant. Candidate catalog families remain labeled UNVERIFIED in Notes; no verified model/serial/procurement data is invented. The 2023-06-13 template remains a reference, not proof of tenant acceptance.
 
 Task groups, task definitions, assignments, and commissioning work orders are retained as **future planning context** under `data/`; they are not exported or imported in this asset-only release.
 
@@ -49,7 +49,7 @@ data/bom.json                  Candidate IAB/PST BOM; no software validation cla
 data/source-extracts.json       Source worksheet values, formulas and row locators
 data/task*.json                Future maintenance context; no import in current scope
 data/network-plan.json         Provisional network zones
-outputs/new-assets-only/       Current asset CSV and matching review workbook only
+outputs/new-assets-only/       Three import batches, combined reference and review workbook
 tools/                         Repeatable build and offline validation
 validation/                    Results and readiness limitations
 diagrams/                      Proposed logical topology and asset hierarchy

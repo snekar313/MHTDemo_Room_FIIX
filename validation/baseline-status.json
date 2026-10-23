@@ -1,8 +1,8 @@
 {
   "as_of": "2026-10-23",
-  "local_checks": "PASS: see results.json and workbook-qa.json; six hierarchy guardrail tests passed",
+  "local_checks": "PASS: source hashes, six populated fields, staged dependencies and nine guardrail tests",
   "native_IAB": "BLOCKED: IAB/PST software validation not performed",
-  "fiix_asset_schema": "Template headers and parent mapping inspected; tenant import not tested",
+  "fiix_asset_schema": "User reported failed combined-file import. Staged 1/6/39 batches generated; tenant acceptance untested.",
   "task_group_import": "BLOCKED: summary export contains no task definitions or import contract",
   "work_order_import": "BLOCKED: export layout is not an import contract; new code generation and reference matching untested",
   "TXT_guides": "BLOCKED: both referenced TXT copies missing",

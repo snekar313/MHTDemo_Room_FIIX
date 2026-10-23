@@ -6,5 +6,20 @@
   "work_orders_export": false,
   "existing_record_updates": false,
   "public_repository_upload_authorized": true,
-  "repository": "snekar313/MHTDemo_Room_FIIX"
+  "repository": "snekar313/MHTDemo_Room_FIIX",
+  "asset_import_strategy": "three separate batches; verify saved parents between stages",
+  "asset_import_batches": [
+    {
+      "file": "01_Demo_Wall.csv",
+      "rows": 1
+    },
+    {
+      "file": "02_Process_Skids.csv",
+      "rows": 6
+    },
+    {
+      "file": "03_Component_Groups.csv",
+      "rows": 39
+    }
+  ]
 }
